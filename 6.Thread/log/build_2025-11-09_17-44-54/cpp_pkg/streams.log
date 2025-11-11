@@ -1,0 +1,81 @@
+[0.046s] Invoking command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/桌面/ROS/6.Thread/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg
+[0.080s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.233s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.460s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.736s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.165s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.428s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.469s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.502s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.535s] -- Looking for pthread.h
+[1.686s] -- Looking for pthread.h - found
+[1.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.769s] -- Found Threads: TRUE  
+[2.056s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.214s] -- Configured cppcheck include dirs: 
+[2.214s] -- Configured cppcheck exclude dirs and/or files: 
+[2.216s] -- Added test 'lint_cmake' to check CMake code style
+[2.221s] -- Added test 'uncrustify' to check C / C++ code style
+[2.222s] -- Configured uncrustify additional arguments: 
+[2.224s] -- Added test 'xmllint' to check XML markup files
+[2.233s] -- Configuring done
+[2.256s] -- Generating done
+[2.261s] -- Build files have been written to: /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg
+[2.265s] Invoked command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/桌面/ROS/6.Thread/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg
+[2.267s] Invoking command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg -- -j16 -l16
+[2.314s] [ 16%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[2.314s] [ 16%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[2.314s] [ 25%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[2.314s] [ 33%] [32mBuilding CXX object CMakeFiles/learn_function.dir/src/learn_function.cpp.o[0m
+[2.317s] [ 41%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[2.321s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[2.759s] [ 58%] [32m[1mLinking CXX executable learn_auto[0m
+[2.843s] [ 66%] [32m[1mLinking CXX executable learn_lambda[0m
+[2.856s] [ 75%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[2.901s] [ 83%] [32m[1mLinking CXX executable learn_function[0m
+[2.959s] [ 83%] Built target learn_auto
+[2.959s] [ 83%] Built target learn_shared_ptr
+[2.960s] [ 83%] Built target learn_lambda
+[2.984s] [ 83%] Built target learn_function
+[4.416s] [ 91%] [32m[1mLinking CXX executable person_node[0m
+[4.417s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.568s] [100%] Built target person_node
+[4.570s] [100%] Built target cpp_node
+[4.577s] Invoked command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg -- -j16 -l16
+[4.585s] Invoking command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg
+[4.590s] -- Install configuration: ""
+[4.591s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/cpp_node
+[4.591s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/cpp_node" to ""
+[4.591s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/person_node
+[4.591s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/person_node" to ""
+[4.591s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_auto
+[4.591s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_auto" to ""
+[4.591s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_shared_ptr
+[4.592s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_shared_ptr" to ""
+[4.592s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_lambda
+[4.592s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_lambda" to ""
+[4.592s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_function
+[4.592s] -- Set runtime path of "/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_function" to ""
+[4.592s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[4.592s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[4.592s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/package.dsv
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[4.593s] -- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/package.xml
+[4.595s] Invoked command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg

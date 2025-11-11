@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg -- -j16 -l16
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.051s] [ 50%] Built target cpp_node
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[1.909s] [100%] [32m[1mLinking CXX executable person_node[0m
+[2.179s] [100%] Built target person_node
+[2.187s] Invoked command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg -- -j16 -l16
+[2.194s] Invoking command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg
+[2.203s] -- Install configuration: ""
+[2.203s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/lib/&{PROJECT_NAME}/cpp_node
+[2.203s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/lib/&{PROJECT_NAME}/person_node
+[2.204s] -- Set runtime path of "/home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/lib/&{PROJECT_NAME}/person_node" to ""
+[2.204s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[2.204s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[2.204s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[2.205s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[2.205s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[2.205s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[2.205s] -- Installing: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/package.dsv
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[2.205s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[2.206s] -- Up-to-date: /home/lxf/桌面/ROS/4.OPP_learn/install/cpp_pkg/share/cpp_pkg/package.xml
+[2.208s] Invoked command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg

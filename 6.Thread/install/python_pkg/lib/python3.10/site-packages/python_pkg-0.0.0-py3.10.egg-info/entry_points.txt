@@ -1,0 +1,6 @@
+[console_scripts]
+learn_thread = python_pkg.learn_thread:main
+person_node = python_pkg.person_node:main
+python_node = python_pkg.python_node:main
+writer_node = python_pkg.writer_node:main
+

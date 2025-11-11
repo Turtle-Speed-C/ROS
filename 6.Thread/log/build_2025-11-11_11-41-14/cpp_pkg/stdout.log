@@ -1,0 +1,7 @@
+[ 14%] Built target learn_auto
+[ 21%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 35%] Built target learn_shared_ptr
+[ 50%] Built target cpp_node
+[ 64%] Built target learn_function
+[ 85%] Built target learn_lambda
+[ 92%] Built target person_node

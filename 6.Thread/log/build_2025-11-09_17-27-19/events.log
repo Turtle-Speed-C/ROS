@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000217] (python_pkg) JobQueued: {'identifier': 'python_pkg', 'dependencies': OrderedDict()}
+[0.000244] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.003141] (python_pkg) JobStarted: {'identifier': 'python_pkg'}
+[0.005596] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.005910] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg'], 'cwd': '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('USER', 'lxf'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/桌面/ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2066'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2516'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10136'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'lxf'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:8685'), ('XDG_SESSION_CLASS', 'user'), ('USER_ZDOTDIR', '/home/lxf'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/lxf:@/tmp/.ICE-unix/2474,unix/lxf:/tmp/.ICE-unix/2474'), ('INVOCATION_ID', '6297159edb5c466f9d420415cc529741'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-db5e360eb9bb4490.txt'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/bca2e5e848eaea5df20d5af3cbbe4885/ms-python.python/pythonrc.py'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3344d9bca3.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/opt/apps/com.qq.weixin.work.deepin/entries'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/lxf'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.046464] (cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.084593] (cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089695] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099575] (-) TimerEvent: {}
+[0.136125] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.141529] (cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.141682] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.141913] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.143955] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199702] (-) TimerEvent: {}
+[0.203844] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.208980] (cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.209166] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.209604] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.215702] (cpp_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.215931] (cpp_pkg) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.216040] (cpp_pkg) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.216133] (cpp_pkg) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.216222] (cpp_pkg) StderrLine: {'line': b'\n'}
+[0.216314] (cpp_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.216396] (cpp_pkg) StderrLine: {'line': b'  any of the following names:\n'}
+[0.216472] (cpp_pkg) StderrLine: {'line': b'\n'}
+[0.216552] (cpp_pkg) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.216630] (cpp_pkg) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.216709] (cpp_pkg) StderrLine: {'line': b'\n'}
+[0.216788] (cpp_pkg) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.216866] (cpp_pkg) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.216957] (cpp_pkg) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.217035] (cpp_pkg) StderrLine: {'line': b'  has been installed.\n'}
+[0.217110] (cpp_pkg) StderrLine: {'line': b'\n'}
+[0.217184] (cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.217258] (cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.217478] (cpp_pkg) StdoutLine: {'line': b'See also "/home/lxf/\xe6\xa1\x8c\xe9\x9d\xa2/ROS/6.Thread/build/cpp_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.217933] (cpp_pkg) CommandEnded: {'returncode': 1}
+[0.232760] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 1}
+[0.299823] (-) TimerEvent: {}
+[0.325244] (python_pkg) JobEnded: {'identifier': 'python_pkg', 'rc': 'SIGINT'}
+[0.335604] (-) EventReactorShutdown: {}

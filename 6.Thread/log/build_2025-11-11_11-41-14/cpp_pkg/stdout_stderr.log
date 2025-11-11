@@ -1,0 +1,14 @@
+[ 14%] Built target learn_auto
+[ 21%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 35%] Built target learn_shared_ptr
+[ 50%] Built target cpp_node
+[ 64%] Built target learn_function
+[ 85%] Built target learn_lambda
+[ 92%] Built target person_node
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcpp-httplib/httplib.h: 没有那个文件或目录
+    5 | #include [01;31m[K<cpp-httplib/httplib.h>[m[K //网络下载相关
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:79：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:363：CMakeFiles/learn_thread.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

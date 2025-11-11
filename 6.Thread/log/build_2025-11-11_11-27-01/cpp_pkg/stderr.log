@@ -1,0 +1,16 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcpp-httplib/httplib.h: 没有那个文件或目录
+    5 | #include [01;31m[K<cpp-httplib/httplib.h>[m[K //网络下载相关
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:79：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:363：CMakeFiles/learn_thread.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

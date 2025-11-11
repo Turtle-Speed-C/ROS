@@ -1,0 +1,125 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lxf/桌面/ROS/6.Thread/build/cpp_pkg
+[ 14%] Built target learn_shared_ptr
+[ 28%] Built target learn_auto
+[ 42%] Built target learn_lambda
+[ 50%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[ 64%] Built target learn_function
+[ 92%] Built target person_node
+[ 92%] Built target cpp_node
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:[m[K In member function ‘[01m[Kvoid Download::download(const string&, const string&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)[m[K’:
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:14:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Khttplib::Client::Get(const string&)[m[K’
+   14 |         auto response = [01;31m[Kclient.Get(path)[m[K;
+      |                         [01;31m[K~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:5[m[K:
+[01m[K/usr/include/httplib.h:1193:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*)[m[K’
+ 1193 |   Result [01;36m[KGet[m[K(const char *path);
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1193:26:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+ 1193 |   Result Get([01;36m[Kconst char *path[m[K);
+      |              [01;36m[K~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/include/httplib.h:1194:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&)[m[K’
+ 1194 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers);
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1194:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1195:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, httplib::Progress)[m[K’
+ 1195 |   Result [01;36m[KGet[m[K(const char *path, Progress progress);
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1195:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1196:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&, httplib::Progress)[m[K’
+ 1196 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers, Progress progress);
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1196:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1197:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, httplib::ContentReceiver)[m[K’
+ 1197 |   Result [01;36m[KGet[m[K(const char *path, ContentReceiver content_receiver);
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1197:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1198:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&, httplib::ContentReceiver)[m[K’
+ 1198 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1198:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1200:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1200 |   Result [01;36m[KGet[m[K(const char *path, ContentReceiver content_receiver,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1200:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1202:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1202 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1202:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1204:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, httplib::ResponseHandler, httplib::ContentReceiver)[m[K’
+ 1204 |   Result [01;36m[KGet[m[K(const char *path, ResponseHandler response_handler,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1204:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1206:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&, httplib::ResponseHandler, httplib::ContentReceiver)[m[K’
+ 1206 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1206:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1209:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Headers&, httplib::ResponseHandler, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1209 |   Result [01;36m[KGet[m[K(const char *path, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1209:10:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1212:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, httplib::ResponseHandler, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1212 |   Result [01;36m[KGet[m[K(const char *path, ResponseHandler response_handler,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1212:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1215:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Params&, const Headers&, httplib::Progress)[m[K’
+ 1215 |   Result [01;36m[KGet[m[K(const char *path, const Params &params, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1215:10:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1217:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Params&, const Headers&, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1217 |   Result [01;36m[KGet[m[K(const char *path, const Params &params, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1217:10:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+[01m[K/usr/include/httplib.h:1219:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khttplib::Result httplib::Client::Get(const char*, const Params&, const Headers&, httplib::ResponseHandler, httplib::ContentReceiver, httplib::Progress)[m[K’
+ 1219 |   Result [01;36m[KGet[m[K(const char *path, const Params &params, const Headers &headers,
+      |          [01;36m[K^~~[m[K
+[01m[K/usr/include/httplib.h:1219:10:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+In file included from [01m[K/usr/include/c++/11/thread:43[m[K,
+                 from [01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:2[m[K:
+/usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)>&; _Args = {Download*, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&}; <template-parameter-1-3> = void][m[K’:
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:24:77:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: std::thread arguments must be invocable after conversion to rvalues
+  130 |                                       typename decay<_Args>::type...>::[01;31m[Kvalue[m[K,
+      |                                                                        [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:130:72:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::integral_constant<bool, false>::value[m[K’ evaluates to false
+/usr/include/c++/11/bits/std_thread.h: In instantiation of ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’:
+[01m[K/usr/include/c++/11/bits/std_thread.h:203:13:[m[K   required from ‘[01m[Kstruct std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > > >[m[K’
+[01m[K/usr/include/c++/11/bits/std_thread.h:143:29:[m[K   required from ‘[01m[Kstd::thread::thread(_Callable&&, _Args&& ...) [with _Callable = std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&, const std::function<void(const std::__cxx11::basic_string<char>&, const std::__cxx11::basic_string<char>&)>&)>&; _Args = {Download*, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&}; <template-parameter-1-3> = void][m[K’
+[01m[K/home/lxf/桌面/ROS/6.Thread/src/cpp_pkg/src/learn_thread.cpp:24:77:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/std_thread.h:258:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >::__result<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’
+  258 |           [01;31m[K_M_invoke[m[K(_Index_tuple<_Ind...>)
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/std_thread.h:262:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::thread::_Invoker<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >::__result<std::tuple<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)>&)>, Download*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void(const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)> > >[m[K’
+  262 |         [01;31m[Koperator[m[K()()
+      |         [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/learn_thread.dir/build.make:79：CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:363：CMakeFiles/learn_thread.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

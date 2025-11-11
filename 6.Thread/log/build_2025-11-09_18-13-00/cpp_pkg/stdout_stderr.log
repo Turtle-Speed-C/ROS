@@ -1,0 +1,28 @@
+[ 50%] Built target learn_function
+[ 50%] Built target learn_shared_ptr
+[ 50%] Built target learn_auto
+[ 66%] Built target learn_lambda
+[ 83%] Built target person_node
+[100%] Built target cpp_node
+-- Install configuration: ""
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/cpp_node
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/person_node
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_auto
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_shared_ptr
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_lambda
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/lib/cpp_pkg/learn_function
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+-- Installing: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/package.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/lxf/桌面/ROS/6.Thread/install/cpp_pkg/share/cpp_pkg/package.xml

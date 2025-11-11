@@ -1,0 +1,2 @@
+Invoking command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg -- -j16 -l16
+Invoked command in '/home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/4.OPP_learn/build/cpp_pkg -- -j16 -l16

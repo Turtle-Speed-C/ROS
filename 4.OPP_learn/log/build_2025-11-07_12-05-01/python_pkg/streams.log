@@ -1,0 +1,27 @@
+[0.393s] Invoking command in '/home/lxf/桌面/ROS/4.OPP_learn/src/python_pkg': PYTHONPATH=/home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/build install --record /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/install.log --single-version-externally-managed install_data
+[0.536s] running egg_info
+[0.536s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[0.536s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[0.536s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[0.536s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[0.536s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[0.538s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.538s] adding license file 'LICENSE'
+[0.538s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] copying python_pkg/writer_node.py -> /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/build/lib/python_pkg
+[0.538s] running install
+[0.539s] running install_lib
+[0.539s] copying /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/build/lib/python_pkg/writer_node.py -> /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages/python_pkg
+[0.539s] byte-compiling /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages/python_pkg/writer_node.py to writer_node.cpython-310.pyc
+[0.540s] running install_data
+[0.540s] running install_egg_info
+[0.541s] removing '/home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.541s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.555s] Installing person_node script to /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python_pkg
+[0.556s] Installing python_node script to /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python_pkg
+[0.556s] Installing writer_node script to /home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python_pkg
+[0.556s] writing list of installed files to '/home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/install.log'
+[0.570s] Invoked command in '/home/lxf/桌面/ROS/4.OPP_learn/src/python_pkg' returned '0': PYTHONPATH=/home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/4.OPP_learn/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/build install --record /home/lxf/桌面/ROS/4.OPP_learn/build/python_pkg/install.log --single-version-externally-managed install_data

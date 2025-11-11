@@ -1,0 +1,28 @@
+[0.411s] Invoking command in '/home/lxf/桌面/ROS/6.Thread/src/python_pkg': PYTHONPATH=/home/lxf/桌面/ROS/6.Thread/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/lxf/桌面/ROS/6.Thread/build/python_pkg/build install --record /home/lxf/桌面/ROS/6.Thread/build/python_pkg/install.log --single-version-externally-managed install_data
+[0.612s] running egg_info
+[0.613s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[0.613s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[0.613s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[0.613s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[0.613s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[0.615s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.615s] adding license file 'LICENSE'
+[0.615s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.616s] running build_py
+[0.616s] copying python_pkg/learn_thread.py -> /home/lxf/桌面/ROS/6.Thread/build/python_pkg/build/lib/python_pkg
+[0.616s] running install
+[0.616s] running install_lib
+[0.616s] copying /home/lxf/桌面/ROS/6.Thread/build/python_pkg/build/lib/python_pkg/learn_thread.py -> /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages/python_pkg
+[0.617s] byte-compiling /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages/python_pkg/learn_thread.py to learn_thread.cpython-310.pyc
+[0.617s] running install_data
+[0.617s] running install_egg_info
+[0.619s] removing '/home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.619s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[0.619s] running install_scripts
+[0.636s] Installing learn_thread script to /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python_pkg
+[0.636s] Installing person_node script to /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python_pkg
+[0.636s] Installing python_node script to /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python_pkg
+[0.636s] Installing writer_node script to /home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python_pkg
+[0.636s] writing list of installed files to '/home/lxf/桌面/ROS/6.Thread/build/python_pkg/install.log'
+[0.653s] Invoked command in '/home/lxf/桌面/ROS/6.Thread/src/python_pkg' returned '0': PYTHONPATH=/home/lxf/桌面/ROS/6.Thread/build/python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/6.Thread/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/lxf/桌面/ROS/6.Thread/build/python_pkg/build install --record /home/lxf/桌面/ROS/6.Thread/build/python_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+[0.387s] Invoking command in '/home/lxf/桌面/ROS/3.workspace/src/2.python_pkg/demo_python_pkg': PYTHONPATH=/home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_pkg build --build-base /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build install --record /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.526s] running egg_info
+[0.526s] creating ../../../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.526s] writing ../../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.527s] writing top-level names to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.527s] writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.528s] reading manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.528s] adding license file 'LICENSE'
+[0.528s] writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.529s] creating /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build
+[0.529s] creating /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib
+[0.529s] creating /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.529s] copying demo_python_pkg/__init__.py -> /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.529s] copying demo_python_pkg/python_node.py -> /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.529s] running install
+[0.529s] running install_lib
+[0.529s] creating /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.529s] copying /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.529s] copying /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg
+[0.530s] byte-compiling /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/__init__.py to __init__.cpython-310.pyc
+[0.530s] byte-compiling /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/python_node.py to python_node.cpython-310.pyc
+[0.530s] running install_data
+[0.530s] creating /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/share/ament_index
+[0.530s] creating /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/share/ament_index/resource_index
+[0.530s] creating /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.530s] copying resource/demo_python_pkg -> /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.530s] copying package.xml -> /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/share/demo_python_pkg
+[0.531s] running install_egg_info
+[0.532s] Copying ../../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[0.532s] running install_scripts
+[0.546s] Installing python_node script to /home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/demo_python_pkg
+[0.546s] writing list of installed files to '/home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/install.log'
+[0.562s] Invoked command in '/home/lxf/桌面/ROS/3.workspace/src/2.python_pkg/demo_python_pkg' returned '0': PYTHONPATH=/home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/3.workspace/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_pkg build --build-base /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/build install --record /home/lxf/桌面/ROS/3.workspace/build/demo_python_pkg/install.log --single-version-externally-managed install_data

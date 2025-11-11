@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg': /usr/bin/cmake /home/lxf/桌面/ROS/6.Thread/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.084s] -- The CXX compiler identification is GNU 11.4.0
+[0.090s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.204s] -- Detecting CXX compiler ABI info - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.209s] -- Detecting CXX compile features
+[0.209s] -- Detecting CXX compile features - done
+[0.216s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.216s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.216s]   has asked CMake to find a package configuration file provided by
+[0.216s]   "ament_cmake", but CMake did not find one.
+[0.216s] 
+[0.216s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.216s]   any of the following names:
+[0.216s] 
+[0.216s]     ament_cmakeConfig.cmake
+[0.216s]     ament_cmake-config.cmake
+[0.217s] 
+[0.217s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.217s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.217s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.217s]   has been installed.
+[0.217s] 
+[0.217s] [0m
+[0.217s] -- Configuring incomplete, errors occurred!
+[0.217s] See also "/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.218s] Invoked command in '/home/lxf/桌面/ROS/6.Thread/build/cpp_pkg' returned '1': /usr/bin/cmake /home/lxf/桌面/ROS/6.Thread/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/6.Thread/install/cpp_pkg
