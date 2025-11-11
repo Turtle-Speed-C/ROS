@@ -1,0 +1,3 @@
+[console_scripts]
+novel_pub_node = python_topic.novel_pub_node:main
+

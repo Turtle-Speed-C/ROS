@@ -1,0 +1,34 @@
+[0.392s] Invoking command in '/home/lxf/桌面/ROS/7.话题发布小说/src/python_topic': PYTHONPATH=/home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_topic build --build-base /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build install --record /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.534s] creating ../../build/python_topic/python_topic.egg-info
+[0.534s] writing ../../build/python_topic/python_topic.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../../build/python_topic/python_topic.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/python_topic/python_topic.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/python_topic/python_topic.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/python_topic/python_topic.egg-info/top_level.txt
+[0.534s] writing manifest file '../../build/python_topic/python_topic.egg-info/SOURCES.txt'
+[0.535s] reading manifest file '../../build/python_topic/python_topic.egg-info/SOURCES.txt'
+[0.535s] adding license file 'LICENSE'
+[0.536s] writing manifest file '../../build/python_topic/python_topic.egg-info/SOURCES.txt'
+[0.536s] running build
+[0.536s] running build_py
+[0.536s] creating /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build
+[0.536s] creating /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build/lib
+[0.536s] creating /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build/lib/python_topic
+[0.536s] copying python_topic/__init__.py -> /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build/lib/python_topic
+[0.536s] running install
+[0.536s] running install_lib
+[0.536s] creating /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages/python_topic
+[0.536s] copying /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build/lib/python_topic/__init__.py -> /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages/python_topic
+[0.537s] byte-compiling /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages/python_topic/__init__.py to __init__.cpython-310.pyc
+[0.537s] running install_data
+[0.537s] creating /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/share/ament_index
+[0.537s] creating /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/share/ament_index/resource_index
+[0.537s] creating /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/share/ament_index/resource_index/packages
+[0.537s] copying resource/python_topic -> /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/share/ament_index/resource_index/packages
+[0.537s] copying package.xml -> /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/share/python_topic
+[0.537s] running install_egg_info
+[0.538s] Copying ../../build/python_topic/python_topic.egg-info to /home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages/python_topic-0.0.0-py3.10.egg-info
+[0.539s] running install_scripts
+[0.552s] writing list of installed files to '/home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/install.log'
+[0.566s] Invoked command in '/home/lxf/桌面/ROS/7.话题发布小说/src/python_topic' returned '0': PYTHONPATH=/home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/桌面/ROS/7.话题发布小说/install/python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_topic build --build-base /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/build install --record /home/lxf/桌面/ROS/7.话题发布小说/build/python_topic/install.log --single-version-externally-managed install_data
