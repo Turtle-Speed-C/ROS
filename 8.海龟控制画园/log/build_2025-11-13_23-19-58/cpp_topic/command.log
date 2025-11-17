@@ -1,0 +1,4 @@
+Invoking command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16
+Invoked command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16
+Invoking command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic
+Invoked command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic

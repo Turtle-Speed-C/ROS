@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic -- -j16 -l16
+[0.046s] [ 50%] Built target turtle_circle
+[0.050s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[5.630s] [100%] [1m[32mLinking CXX executable turtle_control[0m
+[5.911s] [100%] Built target turtle_control
+[5.917s] Invoked command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic -- -j16 -l16
+[5.924s] Invoking command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic
+[5.933s] -- Install configuration: ""
+[5.934s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_circle
+[5.935s] -- Installing: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control
+[5.945s] -- Set non-toolchain portion of runtime path of "/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control" to ""
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/package_run_dependencies/cpp_pose_topic
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/parent_prefix_path/cpp_pose_topic
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.sh
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.dsv
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.sh
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.dsv
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.bash
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.sh
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.zsh
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.dsv
+[5.946s] -- Installing: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/package.dsv
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/packages/cpp_pose_topic
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig.cmake
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig-version.cmake
+[5.946s] -- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/package.xml
+[5.948s] Invoked command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic

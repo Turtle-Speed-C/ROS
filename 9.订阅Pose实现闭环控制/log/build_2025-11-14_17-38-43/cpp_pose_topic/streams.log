@@ -1,0 +1,46 @@
+[0.010s] Invoking command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic -- -j16 -l16
+[0.030s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.030s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.031s]   CMake.
+[0.031s] 
+[0.031s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.031s]   to tell CMake that the project requires at least <min> but has been updated
+[0.031s]   to work with policies introduced by <max> or earlier.
+[0.031s] 
+[0.031s] [0m
+[0.040s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.218s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.251s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.268s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.284s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.410s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.459s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.471s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.508s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.571s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.571s] -- Configured cppcheck include dirs: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/src/cpp_pose_topic/include
+[0.571s] -- Configured cppcheck exclude dirs and/or files: 
+[0.572s] -- Added test 'lint_cmake' to check CMake code style
+[0.573s] -- Added test 'uncrustify' to check C / C++ code style
+[0.573s] -- Configured uncrustify additional arguments: 
+[0.573s] -- Added test 'xmllint' to check XML markup files
+[0.574s] -- Configuring done (0.5s)
+[0.583s] -- Generating done (0.0s)
+[0.585s] -- Build files have been written to: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic
+[0.602s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.603s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[0.612s] [01m[K/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/src/cpp_pose_topic/src/turtle_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.612s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.612s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.612s] compilation terminated.
+[0.613s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:79：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[0.613s] gmake[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/turtle_control.dir/all] 错误 2
+[0.613s] gmake[1]: *** 正在等待未完成的任务....
+[3.190s] [ 75%] [1m[32mLinking CXX executable turtle_circle[0m
+[3.359s] [ 75%] Built target turtle_circle
+[3.359s] gmake: *** [Makefile:146：all] 错误 2
+[3.361s] Invoked command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic -- -j16 -l16

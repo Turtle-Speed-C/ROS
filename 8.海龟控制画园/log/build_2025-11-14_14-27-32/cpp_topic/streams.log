@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16
+[0.034s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[2.615s] [100%] [1m[32mLinking CXX executable turtle_circle[0m
+[2.737s] [100%] Built target turtle_circle
+[2.742s] Invoked command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16
+[2.745s] Invoking command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic
+[2.747s] -- Install configuration: ""
+[2.747s] -- Installing: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/lib/cpp_topic/turtle_circle
+[2.749s] -- Set non-toolchain portion of runtime path of "/home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/lib/cpp_topic/turtle_circle" to ""
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/ament_index/resource_index/package_run_dependencies/cpp_topic
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/ament_index/resource_index/parent_prefix_path/cpp_topic
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.sh
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/environment/ament_prefix_path.dsv
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/environment/path.sh
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/environment/path.dsv
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/local_setup.bash
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/local_setup.sh
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/local_setup.zsh
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/local_setup.dsv
+[2.749s] -- Installing: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/package.dsv
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/ament_index/resource_index/packages/cpp_topic
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig.cmake
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/cmake/cpp_topicConfig-version.cmake
+[2.749s] -- Up-to-date: /home/lxf/桌面/ROS/8.海龟控制画园/install/cpp_topic/share/cpp_topic/package.xml
+[2.750s] Invoked command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic

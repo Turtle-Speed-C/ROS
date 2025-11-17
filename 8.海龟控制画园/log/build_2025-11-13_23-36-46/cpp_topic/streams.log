@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16
+[0.015s] [0mCMake Error: The source directory "/home/lxf/桌面/ROS/8.海龟控制画园/cpp_topic" does not exist.
+[0.016s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.016s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.017s] Invoked command in '/home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/桌面/ROS/8.海龟控制画园/build/cpp_topic -- -j16 -l16

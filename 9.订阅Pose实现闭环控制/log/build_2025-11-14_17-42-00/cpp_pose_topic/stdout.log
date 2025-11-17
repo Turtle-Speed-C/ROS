@@ -1,0 +1,23 @@
+[ 50%] Built target turtle_circle
+[ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[100%] [1m[32mLinking CXX executable turtle_control[0m
+[100%] Built target turtle_control
+-- Install configuration: ""
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_circle
+-- Installing: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control
+-- Set non-toolchain portion of runtime path of "/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control" to ""
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/package_run_dependencies/cpp_pose_topic
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/parent_prefix_path/cpp_pose_topic
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.sh
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.bash
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.sh
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.zsh
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.dsv
+-- Installing: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/package.dsv
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/ament_index/resource_index/packages/cpp_pose_topic
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig.cmake
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig-version.cmake
+-- Up-to-date: /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic/share/cpp_pose_topic/package.xml

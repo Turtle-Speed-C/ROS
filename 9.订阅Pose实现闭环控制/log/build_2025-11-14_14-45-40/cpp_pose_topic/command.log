@@ -1,0 +1,2 @@
+Invoking command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/src/cpp_pose_topic -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic
+Invoked command in '/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/build/cpp_pose_topic' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/src/cpp_pose_topic -DCMAKE_INSTALL_PREFIX=/home/lxf/桌面/ROS/9.订阅Pose实现闭环控制/install/cpp_pose_topic
