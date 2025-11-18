@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[0.035s] [100%] Built target hello_qt
+[0.040s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[0.045s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display
+[0.048s] -- Install configuration: ""
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/hello_qt
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.sh
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.dsv
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.bash
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.sh
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.zsh
+[0.048s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.dsv
+[0.048s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.dsv
+[0.049s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/packages/status_display
+[0.049s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[0.049s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[0.049s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.xml
+[0.049s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display

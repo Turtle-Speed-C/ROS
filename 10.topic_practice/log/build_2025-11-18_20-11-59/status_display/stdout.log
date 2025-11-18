@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o[0m
+[100%] [1m[32mLinking CXX executable hello_qt[0m
+[100%] Built target hello_qt
+-- Install configuration: ""
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/hello_qt
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.sh
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.sh
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.dsv
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.bash
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.sh
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.zsh
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.dsv
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.dsv
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/packages/status_display
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+-- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.xml

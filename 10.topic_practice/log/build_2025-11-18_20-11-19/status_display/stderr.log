@@ -1,0 +1,12 @@
+[01m[K/home/lxf/ROS/10.topic_practice/src/status_display/src/hello_qt.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/lxf/ROS/10.topic_practice/src/status_display/src/hello_qt.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[KQlabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+    8 |     [01;31m[KQlabel[m[K *label = new QLabel();
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KQLabel[m[K
+[01m[K/home/lxf/ROS/10.topic_practice/src/status_display/src/hello_qt.cpp:8:13:[m[K [01;31m[Kerror: [m[K‘[01m[Klabel[m[K’ was not declared in this scope; did you mean ‘[01m[KQLabel[m[K’?
+    8 |     Qlabel *[01;31m[Klabel[m[K = new QLabel();
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[KQLabel[m[K
+gmake[2]: *** [CMakeFiles/hello_qt.dir/build.make:79：CMakeFiles/hello_qt.dir/src/hello_qt.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/hello_qt.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

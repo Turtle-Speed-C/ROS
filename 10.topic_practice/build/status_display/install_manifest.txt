@@ -1,0 +1,16 @@
+/home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/hello_qt
+/home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+/home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.sh
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.sh
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.dsv
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.bash
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.sh
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.zsh
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.dsv
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.dsv
+/home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/packages/status_display
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+/home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.xml

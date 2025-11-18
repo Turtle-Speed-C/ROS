@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/lxf/ROS/10.topic_practice/build/status_display/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
