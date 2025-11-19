@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[0.032s] [ 50%] Built target hello_qt
+[0.037s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[5.949s] [100%] [1m[32mLinking CXX executable sys_status_display[0m
+[6.529s] [100%] Built target sys_status_display
+[6.534s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[6.535s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display
+[6.537s] -- Install configuration: ""
+[6.538s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/hello_qt
+[6.538s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/sys_status_display
+[6.540s] -- Set non-toolchain portion of runtime path of "/home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/sys_status_display" to ""
+[6.540s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[6.540s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.sh
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.dsv
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.bash
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.sh
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.zsh
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.dsv
+[6.541s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.dsv
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/packages/status_display
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[6.541s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.xml
+[6.542s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/home/lxf/ROS/10.topic_practice/install/status_display:/home/lxf/ROS/10.topic_practice/install/status_publisher:/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display

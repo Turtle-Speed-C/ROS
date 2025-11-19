@@ -210,6 +210,19 @@ hello_qt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/build
 .PHONY : hello_qt/fast
 
+#=============================================================================
+# Target rules for targets named sys_status_display
+
+# Build rule for target.
+sys_status_display: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sys_status_display
+.PHONY : sys_status_display
+
+# fast build rule for target.
+sys_status_display/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/build
+.PHONY : sys_status_display/fast
+
 src/hello_qt.o: src/hello_qt.cpp.o
 .PHONY : src/hello_qt.o
 
@@ -234,6 +247,30 @@ src/hello_qt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_qt.dir/build.make CMakeFiles/hello_qt.dir/src/hello_qt.cpp.s
 .PHONY : src/hello_qt.cpp.s
 
+src/sys_status_display.o: src/sys_status_display.cpp.o
+.PHONY : src/sys_status_display.o
+
+# target to build an object file
+src/sys_status_display.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o
+.PHONY : src/sys_status_display.cpp.o
+
+src/sys_status_display.i: src/sys_status_display.cpp.i
+.PHONY : src/sys_status_display.i
+
+# target to preprocess a source file
+src/sys_status_display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.i
+.PHONY : src/sys_status_display.cpp.i
+
+src/sys_status_display.s: src/sys_status_display.cpp.s
+.PHONY : src/sys_status_display.s
+
+# target to generate assembly for a file
+src/sys_status_display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sys_status_display.dir/build.make CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.s
+.PHONY : src/sys_status_display.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... status_display_uninstall"
 	@echo "... uninstall"
 	@echo "... hello_qt"
+	@echo "... sys_status_display"
 	@echo "... src/hello_qt.o"
 	@echo "... src/hello_qt.i"
 	@echo "... src/hello_qt.s"
+	@echo "... src/sys_status_display.o"
+	@echo "... src/sys_status_display.i"
+	@echo "... src/sys_status_display.s"
 .PHONY : help
 
 

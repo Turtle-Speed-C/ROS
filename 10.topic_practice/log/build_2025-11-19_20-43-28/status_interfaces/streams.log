@@ -1,0 +1,210 @@
+[0.009s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_interfaces -- -j16 -l16
+[0.029s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.029s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.029s]   CMake.
+[0.029s] 
+[0.029s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.029s]   to tell CMake that the project requires at least <min> but has been updated
+[0.029s]   to work with policies introduced by <max> or earlier.
+[0.029s] 
+[0.029s] [0m
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.203s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.230s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.298s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.657s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.416s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[1.416s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.416s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.416s]   the cmake_policy command to set the policy and suppress this warning.
+[1.416s] 
+[1.416s] Call Stack (most recent call first):
+[1.416s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.416s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.416s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.416s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.416s] [0m
+[1.431s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.432s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[1.432s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.432s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.432s]   the cmake_policy command to set the policy and suppress this warning.
+[1.432s] 
+[1.432s] Call Stack (most recent call first):
+[1.432s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.432s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.432s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.432s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.432s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.432s] [0m
+[1.447s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[1.447s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.447s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.447s]   the cmake_policy command to set the policy and suppress this warning.
+[1.447s] 
+[1.447s] Call Stack (most recent call first):
+[1.448s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[1.448s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[1.448s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[1.448s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.448s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.448s] [0m
+[1.450s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.450s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.450s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.459s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.469s] -- Added test 'lint_cmake' to check CMake code style
+[1.470s] -- Added test 'xmllint' to check XML markup files
+[1.472s] -- Configuring done (1.4s)
+[1.504s] -- Generating done (0.0s)
+[1.510s] -- Build files have been written to: /home/lxf/ROS/10.topic_practice/build/status_interfaces
+[1.526s] [  9%] Built target status_interfaces__rosidl_generator_c
+[1.527s] [ 12%] Built target status_interfaces__cpp
+[1.528s] [ 12%] Built target ament_cmake_python_copy_status_interfaces
+[1.534s] [ 22%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[1.535s] [ 32%] Built target status_interfaces__rosidl_typesupport_c
+[1.537s] [ 41%] Built target status_interfaces__rosidl_typesupport_cpp
+[1.537s] [ 54%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.537s] [ 61%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[1.537s] [ 70%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[1.545s] [ 70%] Built target status_interfaces
+[1.554s] [ 74%] Built target status_interfaces__py
+[1.567s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[1.577s] [ 87%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.578s] [ 93%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.579s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[1.682s] running egg_info
+[1.683s] writing status_interfaces.egg-info/PKG-INFO
+[1.683s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[1.683s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[1.685s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.686s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.705s] [100%] Built target ament_cmake_python_build_status_interfaces_egg
+[1.711s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_interfaces -- -j16 -l16
+[1.716s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_interfaces
+[1.719s] -- Install configuration: ""
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[1.719s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[1.719s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.720s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[1.721s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[1.722s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.722s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[1.722s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[1.722s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[1.723s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.723s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.723s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.723s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[1.723s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.724s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.724s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.724s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.724s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[1.725s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.753s] Listing '/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[1.754s] Compiling '/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[1.754s] Listing '/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[1.759s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.760s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.760s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.760s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[1.761s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[1.761s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/path.sh
+[1.761s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/local_setup.bash
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/local_setup.sh
+[1.761s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[1.761s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[1.762s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/package.dsv
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.762s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.763s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[1.764s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[1.764s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/package.xml
+[1.766s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_interfaces

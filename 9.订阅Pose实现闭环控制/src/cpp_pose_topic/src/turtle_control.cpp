@@ -15,7 +15,7 @@ public:
 
 public:
     void poseCallback(const turtlesim::msg::Pose::SharedPtr pose)
-    { // 这里的pose是系统传递而来的消息，见下面
+    {   // 这里的pose是系统传递而来的消息，见下面
         auto message = geometry_msgs::msg::Twist();
         // 1.记录当前的位置：
         double current_x_ = pose->x;

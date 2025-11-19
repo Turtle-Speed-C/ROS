@@ -1,0 +1,59 @@
+[0.007s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': AMENT_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[0.019s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.019s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.019s]   CMake.
+[0.019s] 
+[0.019s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.019s]   to tell CMake that the project requires at least <min> but has been updated
+[0.019s]   to work with policies introduced by <max> or earlier.
+[0.019s] 
+[0.019s] [0m
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.178s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.208s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.214s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.223s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.258s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.259s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.375s] -- Found status_interfaces: 0.0.0 (/home/lxf/ROS/10.topic_practice/install/status_interfaces/share/status_interfaces/cmake)
+[0.392s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.451s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.451s] -- Configured cppcheck include dirs: 
+[0.452s] -- Configured cppcheck exclude dirs and/or files: 
+[0.452s] -- Added test 'lint_cmake' to check CMake code style
+[0.452s] -- Added test 'uncrustify' to check C / C++ code style
+[0.452s] -- Configured uncrustify additional arguments: 
+[0.452s] -- Added test 'xmllint' to check XML markup files
+[0.453s] -- Configuring done (0.4s)
+[0.461s] -- Generating done (0.0s)
+[0.462s] -- Build files have been written to: /home/lxf/ROS/10.topic_practice/build/status_display
+[0.482s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[0.482s] [ 75%] Built target hello_qt
+[6.064s] [100%] [1m[32mLinking CXX executable sys_status_display[0m
+[6.635s] [100%] Built target sys_status_display
+[6.639s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/ROS/10.topic_practice/build/status_display -- -j16 -l16
+[6.641s] Invoking command in '/home/lxf/ROS/10.topic_practice/build/status_display': AMENT_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display
+[6.643s] -- Install configuration: ""
+[6.644s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/hello_qt
+[6.644s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/sys_status_display
+[6.646s] -- Set non-toolchain portion of runtime path of "/home/lxf/ROS/10.topic_practice/install/status_display/lib/status_display/sys_status_display" to ""
+[6.646s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
+[6.646s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
+[6.646s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.sh
+[6.646s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/ament_prefix_path.dsv
+[6.646s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.sh
+[6.646s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/environment/path.dsv
+[6.646s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.bash
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.sh
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.zsh
+[6.647s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/local_setup.dsv
+[6.647s] -- Installing: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.dsv
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/ament_index/resource_index/packages/status_display
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig.cmake
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/cmake/status_displayConfig-version.cmake
+[6.647s] -- Up-to-date: /home/lxf/ROS/10.topic_practice/install/status_display/share/status_display/package.xml
+[6.648s] Invoked command in '/home/lxf/ROS/10.topic_practice/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/10.topic_practice/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lxf/ROS/10.topic_practice/build/status_display

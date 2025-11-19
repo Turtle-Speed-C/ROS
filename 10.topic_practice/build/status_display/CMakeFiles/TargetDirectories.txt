@@ -1,6 +1,7 @@
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/uninstall.dir
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/status_display_uninstall.dir
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/hello_qt.dir
+/home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/sys_status_display.dir
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/test.dir
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/edit_cache.dir
 /home/lxf/ROS/10.topic_practice/build/status_display/CMakeFiles/rebuild_cache.dir
