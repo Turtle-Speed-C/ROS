@@ -1,0 +1,6 @@
+{
+  "package_name": "face_interfaces",
+  "non_idl_tuples": [
+    "/home/lxf/ROS/11.Face_Recognition/src/face_interfaces:srv/FaceDetector.srv"
+  ]
+}

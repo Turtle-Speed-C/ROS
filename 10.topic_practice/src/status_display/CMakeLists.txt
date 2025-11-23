@@ -16,7 +16,7 @@ add_executable(hello_qt src/hello_qt.cpp)
 add_executable(sys_status_display src/sys_status_display.cpp)
 
 target_link_libraries(hello_qt Qt5::Widgets)  #对于非ROS功能宝使用CMake原声指令经行连接库
-target_link_libraries(sys_status_display Qt5::Widgets)  # 添加这一行
+target_link_libraries(sys_status_display Qt5::Widgets)  # 添加这一行r
 
 ament_target_dependencies(sys_status_display rclcpp status_interfaces)
 

@@ -16,8 +16,8 @@ public:
             10,           // 最多十条消息
             [&](const SystemStatus::SharedPtr msg) -> void
             { label_->setText(get_qstr_from_msg(msg)); });
-        // setText是把文本设置在标签上
-        // 在这里是把msg通过get_qstr_from_msg之后放在标签上。
+        // setText 是把文本设置在标签上
+        // 在这里是把msg通过 get_qstr_from_msg 之后放在标签上。
 
         label_ = new QLabel(get_qstr_from_msg(std::make_shared<SystemStatus>()));
         // 创建一个QLabel*类型的标签，标签的内容是get_qstr_from_msg(std::make_shared<SystemStatus>())
