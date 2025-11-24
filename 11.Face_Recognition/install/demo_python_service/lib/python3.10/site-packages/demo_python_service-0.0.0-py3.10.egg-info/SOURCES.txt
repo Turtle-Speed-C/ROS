@@ -1,5 +1,4 @@
 LICENSE
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -15,6 +14,7 @@ demo_python_service/face_detect.py
 demo_python_service/face_detect_node.py
 resource/default.jpg
 resource/demo_python_service
+resource/test1.jpg
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

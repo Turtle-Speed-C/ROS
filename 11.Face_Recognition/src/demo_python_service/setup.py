@@ -9,8 +9,8 @@ setup(
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + package_name]),
         ("share/" + package_name, ["package.xml"]),
-        ("share/" + package_name + "/resource", ["resource/default.jpg"]),
-        # "share/" + package_name + "/resource"把文件防止在install下面的share的resource
+        ("share/" + package_name + "/resource", ["resource/default.jpg","resource/test1.jpg"]),
+        # "share/" + package_name + "/resource"把文件放置在install下面的share的resource
         # ["resource/default.jpg"]的意思是原文件
     ],
     install_requires=["setuptools"],
