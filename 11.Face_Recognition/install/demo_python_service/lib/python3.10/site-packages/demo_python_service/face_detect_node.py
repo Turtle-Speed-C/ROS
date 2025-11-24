@@ -21,8 +21,9 @@ class FaceDetectorionNode(Node):
         )
         self.default_image_path = (
             get_package_share_directory("demo_python_service") + "/resource/default.jpg"
-
+            # demo_python_service是这个功能包
             # 这个/resource/default.jpg是在安装目录下的目录
+            # 的意思是，获取demo_python_service功能包下的/resource/default.jpg
             # For example, if you install the package 'foo' into
             # '/home/user/ros2_ws/install' and you called this function with 'foo' as the
             # argument, then it will return '/home/user/ros2_ws/install/share/foo' as
@@ -50,11 +51,12 @@ class FaceDetectorionNode(Node):
         end_time = time.time()
         self.get_logger().info(f' 检测完成，耗时 {end_time-start_time}')
 
-        for top, right, bottom, left in face_locations:
-                cv2.rectangle(cv_image, (left, top), (right, bottom), (255, 0, 0), 4)
+        # for top, right, bottom, left in face_locations:
+        #         cv2.rectangle(cv_image, (left, top), (right, bottom), (255, 0, 0), 4)
         
-        cv2.imshow("face detector display",cv_image)
-        cv2.waitKey(0)
+        # cv2.imshow("face detector display",cv_image)
+        # # 名字在窗口标题栏
+        # cv2.waitKey(0)
 
         # response是我们自定义的消息接口的
         response.number=len(face_locations)

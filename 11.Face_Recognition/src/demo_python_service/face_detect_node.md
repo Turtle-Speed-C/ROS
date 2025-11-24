@@ -77,4 +77,9 @@
       1. `arg=None`是 Python 中为函数参数设置**默认值**的写法：
          1. **不传参数**：直接用`main()`调用时，`arg`会自动取默认值`None`。
          2. **传参数**：如果用`main("some_value")`调用，`arg`就会被赋值为传入的`"some_value"`。
+      2. 这是一个服务端代码，他在spin()处等待客户端传递消息
+         1. **`rclpy.spin(node)`** 是 ROS2 节点的 “灵魂”：它会让节点进入一个**无限循环**，持续监听 ROS2 的消息总线，等待针对`/face_detect`服务的客户端请求。
+         2. 当客户端发送请求时，`spin`循环会自动触发绑定的`detec_face_callbask`回调函数处理请求，处理完成后又回到等待状态。
+         3. 如果没有`spin`，节点会创建后立即退出，根本无法接收任何请求。
+      3. 使用`ros2 service call /face_detect chapt4_interfaces/srv/FaceDetector`传递一个空的Request给服务端，服务端返回默认的图片。
 

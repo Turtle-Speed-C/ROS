@@ -1,7 +1,9 @@
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect.py
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect.cpython-310.pyc
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_client_node.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/__init__.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_node.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/share/ament_index/resource_index/packages/demo_python_service
@@ -16,4 +18,5 @@
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/requires.txt
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/PKG-INFO
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect_client_node
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect_node

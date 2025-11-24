@@ -30,7 +30,8 @@ setup(
             # face_detect:指的是可执行文件的名字
             # demo_python_service包名
             # face_detect文件名
-            "face_detect_node=demo_python_service.face_detect_node:main"
+            "face_detect_node=demo_python_service.face_detect_node:main",
+            "face_detect_client_node=demo_python_service.face_detect_client_node:main"
         ],
     },
 )
