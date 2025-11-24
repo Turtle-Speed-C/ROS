@@ -1,3 +1,4 @@
 [console_scripts]
 face_detect = demo_python_service.face_detect:main
+face_detect_node = demo_python_service.face_detect_node:main
 
