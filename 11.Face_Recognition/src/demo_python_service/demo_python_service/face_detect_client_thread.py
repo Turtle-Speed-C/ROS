@@ -80,20 +80,22 @@ class FaceDetectorClient(Node):
         )
         # 存储结果而不是直接显示图片
         with self.results_lock:
-            self.results[image_name] = {'response': response, 'image': image.copy()}
+            self.results[image_name] = {"response": response, "image": image.copy()}
 
     def show_all_results(self):
         # 在主线程中显示所有结果
         with self.results_lock:
             for image_name, data in self.results.items():
-                display_image = data['image']
-                response = data['response']
+                display_image = data["image"]
+                response = data["response"]
                 for i in range(response.number):
                     top = response.top[i]
                     left = response.left[i]
                     right = response.right[i]
                     bottom = response.bottom[i]
-                    cv2.rectangle(display_image, (left, top), (right, bottom), (255, 0, 0), 2)
+                    cv2.rectangle(
+                        display_image, (left, top), (right, bottom), (255, 0, 0), 2
+                    )
                 cv2.imshow(image_name, display_image)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
@@ -105,20 +107,17 @@ def main(args=None):
     face_detect_client_ = FaceDetectorClient()
 
     # 在单独线程中执行send_request
-    thread=threading.Thread(target=face_detect_client_.send_request)
+    thread = threading.Thread(target=face_detect_client_.send_request)
     thread.start()
 
     # 在主线程中使用spin
     try:
         while rclpy.ok() and thread.is_alive():
-            rclpy.spin_once(face_detect_client_,timeout_sec=0.1)
+            rclpy.spin_once(face_detect_client_, timeout_sec=0.1)
     except KeyboardInterrupt:
         pass
     finally:
-        thread.join()   # 等待子线程
+        thread.join()  # 等待子线程
         face_detect_client_.show_all_results()  # 在主线程中显示图片
         face_detect_client_.destroy_node()
         rclpy.shutdown()
-
-
-
