@@ -30,8 +30,8 @@ class FaceDetectorionNode(Node):
             # the package's share directory.
         )
         self.get_logger().info(f"默认图片路径:{get_package_share_directory}")
-        self.number_of_times_to_upsample = 2
-        self.model = "cnn"
+        self.number_of_times_to_upsample = 1
+        self.model = "hog"
 
     def detec_face_callbask(self, request, response):
         if request.image.data:

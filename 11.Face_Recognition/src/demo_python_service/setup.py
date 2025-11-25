@@ -9,7 +9,7 @@ setup(
     data_files=[
         ("share/ament_index/resource_index/packages", ["resource/" + package_name]),
         ("share/" + package_name, ["package.xml"]),
-        ("share/" + package_name + "/resource", ["resource/default.jpg","resource/test1.jpg"]),
+        ("share/" + package_name + "/resource", ["resource/default.jpg","resource/test1.jpg","resource/test2.jpg"]),
         # "share/" + package_name + "/resource"把文件放置在install下面的share的resource
         # ["resource/default.jpg"]的意思是原文件
     ],
@@ -31,7 +31,8 @@ setup(
             # demo_python_service包名
             # face_detect文件名
             "face_detect_node=demo_python_service.face_detect_node:main",
-            "face_detect_client_node=demo_python_service.face_detect_client_node:main"
+            "face_detect_client_node=demo_python_service.face_detect_client_node:main",
+            "face_detect_client_two_node=demo_python_service.face_detect_client_two_node:main"
         ],
     },
 )

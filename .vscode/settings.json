@@ -74,5 +74,8 @@
         "variant": "cpp",
         "any": "cpp",
         "regex": "cpp"
-    }
+    },
+    "python.analysis.extraPaths": [
+        "./11.Face_Recognition/build/face_interfaces/rosidl_generator_py"
+    ]
 }

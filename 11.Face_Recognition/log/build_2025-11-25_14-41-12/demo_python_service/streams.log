@@ -1,0 +1,31 @@
+[2.818s] Invoking command in '/home/lxf/ROS/11.Face_Recognition/src/demo_python_service': AMENT_PREFIX_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/11.Face_Recognition/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build install --record /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/install.log --single-version-externally-managed install_data
+[2.965s] running egg_info
+[2.966s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[2.966s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[2.966s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[2.966s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[2.966s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[2.967s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[2.969s] adding license file 'LICENSE'
+[2.970s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[2.970s] running build
+[2.970s] running build_py
+[2.970s] copying demo_python_service/face_detect_client_two_node.py -> /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build/lib/demo_python_service
+[2.970s] copying demo_python_service/face_detect_client_node.py -> /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build/lib/demo_python_service
+[2.971s] running install
+[2.971s] running install_lib
+[2.971s] copying /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build/lib/demo_python_service/face_detect_client_two_node.py -> /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[2.972s] copying /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[2.972s] byte-compiling /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_two_node.py to face_detect_client_two_node.cpython-310.pyc
+[2.973s] byte-compiling /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[2.973s] running install_data
+[2.973s] running install_egg_info
+[2.974s] removing '/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[2.975s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[2.975s] running install_scripts
+[2.991s] Installing face_detect script to /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service
+[2.991s] Installing face_detect_client_node script to /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service
+[2.991s] Installing face_detect_client_two_node script to /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service
+[2.991s] Installing face_detect_node script to /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service
+[2.991s] writing list of installed files to '/home/lxf/ROS/11.Face_Recognition/build/demo_python_service/install.log'
+[3.006s] Invoked command in '/home/lxf/ROS/11.Face_Recognition/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/ROS/11.Face_Recognition/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/build install --record /home/lxf/ROS/11.Face_Recognition/build/demo_python_service/install.log --single-version-externally-managed install_data

@@ -1,8 +1,10 @@
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect.py
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_two_node.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect.cpython-310.pyc
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_client_two_node.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_client_node.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/__init__.cpython-310.pyc
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_node.cpython-310.pyc
@@ -10,6 +12,7 @@
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/share/demo_python_service/package.xml
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/share/demo_python_service/resource/default.jpg
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/share/demo_python_service/resource/test1.jpg
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/share/demo_python_service/resource/test2.jpg
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/zip-safe
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/top_level.txt
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/entry_points.txt
@@ -19,4 +22,5 @@
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/PKG-INFO
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect_client_node
+/home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect_client_two_node
 /home/lxf/ROS/11.Face_Recognition/install/demo_python_service/lib/demo_python_service/face_detect_node

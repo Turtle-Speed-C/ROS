@@ -37,8 +37,12 @@ class FaceDetectorClient(Node):
         request_ = FaceDetector.Request()
         request_.image = self.bridge_.cv2_to_imgmsg(self.image_)
         # 发送并 spin 等待服务处理完成
+        # 现在的future波嗯灭有包含结果，需要等待服务端完成才会把数据放入future中
         future = self.client_.call_async(request_)
+
+        # 等待服务端相应，等待future中有了数据
         rclpy.spin_until_future_complete(self, future)
+
         # 根据处理结果
         response = future.result()
         self.get_logger().info(
