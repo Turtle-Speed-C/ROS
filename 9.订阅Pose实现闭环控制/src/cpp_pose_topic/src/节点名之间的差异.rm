@@ -16,7 +16,7 @@
 
 但是在
 lxf@lxf:~桌面/ROS/.订阅Pose实现闭环控 $ ros2 node list
-/control_urtle_nod
+/control_turtle_node
 /turtlesi
 
 也就是说，在cpp中的name是节点名，但是运行的时候要的是可执行文件的名字。

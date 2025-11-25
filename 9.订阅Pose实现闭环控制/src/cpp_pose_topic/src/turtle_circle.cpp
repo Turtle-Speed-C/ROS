@@ -8,7 +8,6 @@ class TurtleCircle : public rclcpp::Node
 {
 private:
     rclcpp::TimerBase::SharedPtr timer_;
-    // rclcpp::Publisher<geometry_msgs::msg::Twist> publisher_; // 发布者智能指针
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_; // 发布者智能指针
 
 public:
