@@ -12,6 +12,8 @@ setup.py
 demo_python_service/__init__.py
 demo_python_service/face_detect.py
 demo_python_service/face_detect_client_node.py
+demo_python_service/face_detect_client_thread.py
+demo_python_service/face_detect_client_thread_base.py
 demo_python_service/face_detect_client_two_node.py
 demo_python_service/face_detect_node.py
 resource/default.jpg
