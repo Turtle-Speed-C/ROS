@@ -1,0 +1,30 @@
+[1.120s] Invoking command in '/home/lxf/Desktop/ROS/12_Parameter_Python/src/demo_python_service': PYTHONPATH=/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.466s] running egg_info
+[1.467s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.467s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.467s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.467s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.467s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.470s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.470s] adding license file 'LICENSE'
+[1.471s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.471s] running build
+[1.471s] running build_py
+[1.472s] copying demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.472s] running install
+[1.472s] running install_lib
+[1.473s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.474s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[1.475s] running install_data
+[1.475s] running install_egg_info
+[1.478s] removing '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.479s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.479s] running install_scripts
+[1.511s] Installing face_detect script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] Installing face_detect_client_Optimization script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] Installing face_detect_client_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] Installing face_detect_client_thread script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] Installing face_detect_client_two_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] Installing face_detect_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.512s] writing list of installed files to '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log'
+[1.540s] Invoked command in '/home/lxf/Desktop/ROS/12_Parameter_Python/src/demo_python_service' returned '0': PYTHONPATH=/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data

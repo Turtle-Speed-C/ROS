@@ -1,0 +1,65 @@
+[0.909s] Invoking command in '/home/lxf/Desktop/ROS/12_Parameter_Python/src/demo_python_service': PYTHONPATH=/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.198s] running egg_info
+[1.199s] creating ../../build/demo_python_service/demo_python_service.egg-info
+[1.199s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.199s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.199s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.199s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.199s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.202s] adding license file 'LICENSE'
+[1.203s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.203s] running build_py
+[1.203s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build
+[1.203s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib
+[1.203s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_client_thread_base.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_client_two_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_client_thread.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/__init__.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_client_Optimization.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_client_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] copying demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service
+[1.204s] running install
+[1.205s] running install_lib
+[1.205s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_thread_base.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_two_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_thread.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_Optimization.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.206s] copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service
+[1.207s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_thread_base.py to face_detect_client_thread_base.cpython-310.pyc
+[1.208s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect.py to face_detect.cpython-310.pyc
+[1.208s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_two_node.py to face_detect_client_two_node.cpython-310.pyc
+[1.209s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_thread.py to face_detect_client_thread.cpython-310.pyc
+[1.210s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc
+[1.210s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_Optimization.py to face_detect_client_Optimization.cpython-310.pyc
+[1.211s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc
+[1.212s] byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc
+[1.213s] running install_data
+[1.213s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index
+[1.213s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index
+[1.213s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index/packages
+[1.213s] copying resource/demo_python_service -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index/packages
+[1.213s] copying package.xml -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service
+[1.213s] creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource
+[1.214s] copying resource/default.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource
+[1.214s] copying resource/test1.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource
+[1.214s] copying resource/test2.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource
+[1.214s] running install_egg_info
+[1.215s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.216s] running install_scripts
+[1.243s] Installing face_detect script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.243s] Installing face_detect_client_Optimization script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.243s] Installing face_detect_client_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.244s] Installing face_detect_client_thread script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.244s] Installing face_detect_client_two_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.244s] Installing face_detect_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service
+[1.244s] writing list of installed files to '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log'
+[1.274s] Invoked command in '/home/lxf/Desktop/ROS/12_Parameter_Python/src/demo_python_service' returned '0': PYTHONPATH=/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data

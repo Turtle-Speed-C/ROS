@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (face_interfaces) JobQueued: {'identifier': 'face_interfaces', 'dependencies': OrderedDict()}
+[0.000852] (demo_python_service) JobQueued: {'identifier': 'demo_python_service', 'dependencies': OrderedDict([('face_interfaces', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces')])}
+[0.000913] (face_interfaces) JobStarted: {'identifier': 'face_interfaces'}
+[0.012135] (face_interfaces) JobProgress: {'identifier': 'face_interfaces', 'progress': 'cmake'}
+[0.014137] (face_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lxf/Desktop/ROS/12_Parameter_Python/src/face_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces'], 'cwd': '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1599'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1774'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4000'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:21676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1745,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1745'), ('INVOCATION_ID', '5f60dadf6a5b45cd8f8d95b09aaebca2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3X3G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[0.099918] (-) TimerEvent: {}
+[0.200740] (-) TimerEvent: {}
+[0.275416] (face_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301022] (-) TimerEvent: {}
+[0.401934] (-) TimerEvent: {}
+[0.450631] (face_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.465650] (face_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502149] (-) TimerEvent: {}
+[0.602893] (-) TimerEvent: {}
+[0.681865] (face_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.703086] (-) TimerEvent: {}
+[0.721049] (face_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.722329] (face_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.724676] (face_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.741076] (face_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803320] (-) TimerEvent: {}
+[0.904150] (-) TimerEvent: {}
+[1.004970] (-) TimerEvent: {}
+[1.103263] (face_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.105064] (-) TimerEvent: {}
+[1.144655] (face_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.146155] (face_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.148544] (face_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.156581] (face_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205300] (-) TimerEvent: {}
+[1.306206] (-) TimerEvent: {}
+[1.407091] (-) TimerEvent: {}
+[1.508198] (-) TimerEvent: {}
+[1.609009] (-) TimerEvent: {}
+[1.710073] (-) TimerEvent: {}
+[1.811231] (-) TimerEvent: {}
+[1.862527] (face_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.911560] (-) TimerEvent: {}
+[2.012405] (-) TimerEvent: {}
+[2.047606] (face_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.102867] (face_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.110775] (face_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.112552] (-) TimerEvent: {}
+[2.122279] (face_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.144300] (face_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.166056] (face_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.212713] (-) TimerEvent: {}
+[2.245778] (face_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.312942] (-) TimerEvent: {}
+[2.413751] (-) TimerEvent: {}
+[2.514826] (-) TimerEvent: {}
+[2.615405] (-) TimerEvent: {}
+[2.716228] (-) TimerEvent: {}
+[2.817111] (-) TimerEvent: {}
+[2.917973] (-) TimerEvent: {}
+[3.018755] (-) TimerEvent: {}
+[3.119583] (-) TimerEvent: {}
+[3.194690] (face_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.219920] (-) TimerEvent: {}
+[3.320995] (-) TimerEvent: {}
+[3.421731] (-) TimerEvent: {}
+[3.522250] (-) TimerEvent: {}
+[3.623008] (-) TimerEvent: {}
+[3.723505] (-) TimerEvent: {}
+[3.824328] (-) TimerEvent: {}
+[3.925044] (-) TimerEvent: {}
+[4.025944] (-) TimerEvent: {}
+[4.126761] (-) TimerEvent: {}
+[4.227729] (-) TimerEvent: {}
+[4.328562] (-) TimerEvent: {}
+[4.429537] (-) TimerEvent: {}
+[4.530452] (-) TimerEvent: {}
+[4.631423] (-) TimerEvent: {}
+[4.732311] (-) TimerEvent: {}
+[4.833209] (-) TimerEvent: {}
+[4.934434] (-) TimerEvent: {}
+[5.035335] (-) TimerEvent: {}
+[5.073143] (face_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.135657] (-) TimerEvent: {}
+[5.236432] (-) TimerEvent: {}
+[5.336991] (-) TimerEvent: {}
+[5.437878] (-) TimerEvent: {}
+[5.538665] (-) TimerEvent: {}
+[5.638589] (face_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.639322] (-) TimerEvent: {}
+[5.739980] (-) TimerEvent: {}
+[5.750691] (face_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.755958] (face_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.840125] (-) TimerEvent: {}
+[5.867926] (face_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.868995] (face_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.869335] (face_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.869581] (face_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.940372] (-) TimerEvent: {}
+[5.968016] (face_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.040637] (-) TimerEvent: {}
+[6.141462] (-) TimerEvent: {}
+[6.197502] (face_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.213652] (face_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.214664] (face_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.217231] (face_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.241557] (-) TimerEvent: {}
+[6.262281] (face_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.280858] (face_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces\n'}
+[6.292293] (face_interfaces) CommandEnded: {'returncode': 0}
+[6.294970] (face_interfaces) JobProgress: {'identifier': 'face_interfaces', 'progress': 'build'}
+[6.295011] (face_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1599'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1774'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4000'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:21676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1745,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1745'), ('INVOCATION_ID', '5f60dadf6a5b45cd8f8d95b09aaebca2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3X3G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[6.341893] (-) TimerEvent: {}
+[6.442771] (-) TimerEvent: {}
+[6.461307] (face_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.505896] (face_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.543086] (-) TimerEvent: {}
+[6.544260] (face_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_face_interfaces\n'}
+[6.643258] (-) TimerEvent: {}
+[6.743648] (-) TimerEvent: {}
+[6.844030] (-) TimerEvent: {}
+[6.919338] (face_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.920191] (face_interfaces) StdoutLine: {'line': b'creating face_interfaces.egg-info\n'}
+[6.920553] (face_interfaces) StdoutLine: {'line': b'writing face_interfaces.egg-info/PKG-INFO\n'}
+[6.920921] (face_interfaces) StdoutLine: {'line': b'writing dependency_links to face_interfaces.egg-info/dependency_links.txt\n'}
+[6.921121] (face_interfaces) StdoutLine: {'line': b'writing top-level names to face_interfaces.egg-info/top_level.txt\n'}
+[6.921353] (face_interfaces) StdoutLine: {'line': b"writing manifest file 'face_interfaces.egg-info/SOURCES.txt'\n"}
+[6.923951] (face_interfaces) StdoutLine: {'line': b"reading manifest file 'face_interfaces.egg-info/SOURCES.txt'\n"}
+[6.924873] (face_interfaces) StdoutLine: {'line': b"writing manifest file 'face_interfaces.egg-info/SOURCES.txt'\n"}
+[6.944146] (-) TimerEvent: {}
+[6.964515] (face_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_face_interfaces_egg\n'}
+[7.036184] (face_interfaces) StdoutLine: {'line': b'[  6%] Built target face_interfaces__cpp\n'}
+[7.037987] (face_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_generator_c.dir/rosidl_generator_c/face_interfaces/srv/detail/face_detector__functions.c.o\x1b[0m\n'}
+[7.044381] (-) TimerEvent: {}
+[7.073656] (face_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.075277] (face_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.079885] (face_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.144595] (-) TimerEvent: {}
+[7.171297] (face_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libface_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.234756] (face_interfaces) StdoutLine: {'line': b'[ 22%] Built target face_interfaces__rosidl_generator_c\n'}
+[7.244749] (-) TimerEvent: {}
+[7.249332] (face_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.252492] (face_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.252824] (face_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.344879] (-) TimerEvent: {}
+[7.445294] (-) TimerEvent: {}
+[7.514342] (face_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.543896] (face_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_interfaces/srv/detail/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.545414] (-) TimerEvent: {}
+[7.565460] (face_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.645641] (-) TimerEvent: {}
+[7.671275] (face_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.719445] (face_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[7.720976] (face_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.736681] (face_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_interfaces/srv/detail/face_detector__type_support_c.cpp.o\x1b[0m\n'}
+[7.745780] (-) TimerEvent: {}
+[7.790009] (face_interfaces) StdoutLine: {'line': b'[ 54%] Built target face_interfaces__rosidl_typesupport_c\n'}
+[7.797268] (face_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libface_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.845977] (-) TimerEvent: {}
+[7.848725] (face_interfaces) StdoutLine: {'line': b'[ 58%] Built target face_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.926957] (face_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.946114] (-) TimerEvent: {}
+[7.994887] (face_interfaces) StdoutLine: {'line': b'[ 61%] Built target face_interfaces__rosidl_typesupport_cpp\n'}
+[8.046251] (-) TimerEvent: {}
+[8.146702] (-) TimerEvent: {}
+[8.174873] (face_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.240216] (face_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.246971] (-) TimerEvent: {}
+[8.251492] (face_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.347269] (-) TimerEvent: {}
+[8.354159] (face_interfaces) StdoutLine: {'line': b'[ 70%] Built target face_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.447578] (-) TimerEvent: {}
+[8.466470] (face_interfaces) StdoutLine: {'line': b'[ 70%] Built target face_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.498490] (face_interfaces) StdoutLine: {'line': b'[ 70%] Built target face_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.547908] (-) TimerEvent: {}
+[8.593754] (face_interfaces) StdoutLine: {'line': b'[ 70%] Built target face_interfaces\n'}
+[8.648160] (-) TimerEvent: {}
+[8.696319] (face_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.748437] (-) TimerEvent: {}
+[8.849327] (-) TimerEvent: {}
+[8.949729] (-) TimerEvent: {}
+[9.050011] (-) TimerEvent: {}
+[9.150299] (-) TimerEvent: {}
+[9.250572] (-) TimerEvent: {}
+[9.311096] (face_interfaces) StdoutLine: {'line': b'[ 74%] Built target face_interfaces__py\n'}
+[9.350759] (-) TimerEvent: {}
+[9.385240] (face_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_generator_py.dir/rosidl_generator_py/face_interfaces/srv/_face_detector_s.c.o\x1b[0m\n'}
+[9.451044] (-) TimerEvent: {}
+[9.551725] (-) TimerEvent: {}
+[9.640839] (face_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/face_interfaces/libface_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.651884] (-) TimerEvent: {}
+[9.752598] (-) TimerEvent: {}
+[9.826346] (face_interfaces) StdoutLine: {'line': b'[ 80%] Built target face_interfaces__rosidl_generator_py\n'}
+[9.853156] (-) TimerEvent: {}
+[9.915113] (face_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.917585] (face_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.920890] (face_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.953412] (-) TimerEvent: {}
+[10.054158] (-) TimerEvent: {}
+[10.147013] (face_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.149634] (face_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.151562] (face_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.154264] (-) TimerEvent: {}
+[10.254733] (-) TimerEvent: {}
+[10.292226] (face_interfaces) StdoutLine: {'line': b'[100%] Built target face_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.295757] (face_interfaces) StdoutLine: {'line': b'[100%] Built target face_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.302256] (face_interfaces) StdoutLine: {'line': b'[100%] Built target face_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.351375] (face_interfaces) CommandEnded: {'returncode': 0}
+[10.357043] (face_interfaces) JobProgress: {'identifier': 'face_interfaces', 'progress': 'install'}
+[10.357279] (-) TimerEvent: {}
+[10.393448] (face_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces'], 'cwd': '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1599'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1774'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4000'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:21676'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1745,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1745'), ('INVOCATION_ID', '5f60dadf6a5b45cd8f8d95b09aaebca2'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S3X3G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/face_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/opt/ros/humble')]), 'shell': False}
+[10.427977] (face_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.428840] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/ament_index/resource_index/rosidl_interfaces/face_interfaces\n'}
+[10.429510] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.430249] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.430763] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.431186] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.h\n'}
+[10.431432] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.c\n'}
+[10.431653] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.h\n'}
+[10.432261] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.h\n'}
+[10.432908] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.h\n'}
+[10.433218] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg\n'}
+[10.433464] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.433873] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/library_path.sh\n'}
+[10.434122] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/library_path.dsv\n'}
+[10.434360] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_generator_c.so\n'}
+[10.435394] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.436031] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.436363] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.436622] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.436869] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[10.437890] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg\n'}
+[10.438487] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.439006] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.439270] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.439510] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.439738] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.439991] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.440217] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[10.440438] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[10.441317] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[10.441929] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[10.442213] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.hpp\n'}
+[10.442452] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg\n'}
+[10.442988] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.443239] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.443477] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.443706] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.443960] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.444193] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/dds_fastrtps\n'}
+[10.444418] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg\n'}
+[10.444634] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.444880] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.445100] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.445319] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.445535] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.445736] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.446494] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[10.447277] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.c\n'}
+[10.447571] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg\n'}
+[10.447846] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.448102] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.448330] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.448553] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_c.so\n'}
+[10.448774] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.449024] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces\n'}
+[10.449243] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv\n'}
+[10.449468] (face_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail\n'}
+[10.449886] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[10.450350] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.450598] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.450844] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.451239] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.451469] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.451702] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/pythonpath.sh\n'}
+[10.452131] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/pythonpath.dsv\n'}
+[10.452380] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.452943] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.453849] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.454274] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.455019] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.455355] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces\n'}
+[10.455750] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.456024] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv\n'}
+[10.456276] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector_s.c\n'}
+[10.456497] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector.py\n'}
+[10.456712] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/__init__.py\n'}
+[10.456965] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.457196] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.457421] (-) TimerEvent: {}
+[10.458400] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.459312] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.459923] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/libface_interfaces__rosidl_generator_py.so\n'}
+[10.460542] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.461466] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/__init__.py\n'}
+[10.557705] (-) TimerEvent: {}
+[10.616265] (face_interfaces) StdoutLine: {'line': b"Listing '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces'...\n"}
+[10.616568] (face_interfaces) StdoutLine: {'line': b"Compiling '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/__init__.py'...\n"}
+[10.616676] (face_interfaces) StdoutLine: {'line': b"Listing '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv'...\n"}
+[10.616765] (face_interfaces) StdoutLine: {'line': b"Compiling '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/__init__.py'...\n"}
+[10.616910] (face_interfaces) StdoutLine: {'line': b"Compiling '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector.py'...\n"}
+[10.625216] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.625601] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.626032] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.626486] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.627137] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.627467] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.627750] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_generator_py.so\n'}
+[10.628547] (face_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib/libface_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.629964] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/srv/FaceDetector.idl\n'}
+[10.630775] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/srv/FaceDetector.srv\n'}
+[10.631860] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Request.msg\n'}
+[10.632897] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Response.msg\n'}
+[10.633252] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/ament_index/resource_index/package_run_dependencies/face_interfaces\n'}
+[10.633505] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/ament_index/resource_index/parent_prefix_path/face_interfaces\n'}
+[10.633741] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.sh\n'}
+[10.633991] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.634220] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/path.sh\n'}
+[10.634449] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/environment/path.dsv\n'}
+[10.634673] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/local_setup.bash\n'}
+[10.634909] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/local_setup.sh\n'}
+[10.635132] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/local_setup.zsh\n'}
+[10.635343] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/local_setup.dsv\n'}
+[10.635553] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/package.dsv\n'}
+[10.635764] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/ament_index/resource_index/packages/face_interfaces\n'}
+[10.636019] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.636988] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.637489] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.637765] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.638153] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.638387] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.638620] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.638862] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.639089] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.639306] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.639517] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.639730] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.639964] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.640181] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.640595] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.640855] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.641345] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.641568] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.641782] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.642026] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.642240] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.642453] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.642666] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.643214] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.643539] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig.cmake\n'}
+[10.643754] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig-version.cmake\n'}
+[10.644020] (face_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/share/face_interfaces/package.xml\n'}
+[10.651769] (face_interfaces) CommandEnded: {'returncode': 0}
+[10.658458] (-) TimerEvent: {}
+[10.736537] (face_interfaces) JobEnded: {'identifier': 'face_interfaces', 'rc': 0}
+[10.742747] (demo_python_service) JobStarted: {'identifier': 'demo_python_service'}
+[10.760143] (-) TimerEvent: {}
+[10.861003] (-) TimerEvent: {}
+[10.961848] (-) TimerEvent: {}
+[11.062351] (-) TimerEvent: {}
+[11.162777] (-) TimerEvent: {}
+[11.263106] (-) TimerEvent: {}
+[11.363541] (-) TimerEvent: {}
+[11.463880] (-) TimerEvent: {}
+[11.564175] (-) TimerEvent: {}
+[11.650589] (demo_python_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_service', 'build', '--build-base', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build', 'install', '--record', '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lxf/Desktop/ROS/12_Parameter_Python/src/demo_python_service', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'lxf', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lxf', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/lxf/Desktop/ROS', 'TERM_PROGRAM_VERSION': '1.106.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1599', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1774', 'BUNDLED_DEBUGPY_PATH': '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4000', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lxf/Desktop/ROS/12_Parameter_Python/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lxf', 'JOURNAL_STREAM': '8:21676', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lxf', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1745,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1745', 'INVOCATION_ID': '5f60dadf6a5b45cd8f8d95b09aaebca2', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S3X3G3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-953a7f316d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lxf/Desktop/ROS/12_Parameter_Python/install/face_interfaces'}, 'shell': False}
+[11.664302] (-) TimerEvent: {}
+[11.764586] (-) TimerEvent: {}
+[11.864899] (-) TimerEvent: {}
+[11.940760] (demo_python_service) StdoutLine: {'line': b'running egg_info\n'}
+[11.941412] (demo_python_service) StdoutLine: {'line': b'creating ../../build/demo_python_service/demo_python_service.egg-info\n'}
+[11.941629] (demo_python_service) StdoutLine: {'line': b'writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO\n'}
+[11.941740] (demo_python_service) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt\n'}
+[11.941821] (demo_python_service) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt\n'}
+[11.941912] (demo_python_service) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt\n'}
+[11.941967] (demo_python_service) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt\n'}
+[11.942054] (demo_python_service) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[11.944890] (demo_python_service) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[11.944984] (demo_python_service) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.945812] (demo_python_service) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[11.945871] (demo_python_service) StdoutLine: {'line': b'running build\n'}
+[11.945923] (demo_python_service) StdoutLine: {'line': b'running build_py\n'}
+[11.946097] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build\n'}
+[11.946157] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib\n'}
+[11.946214] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946356] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_thread_base.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946512] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946572] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_two_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946669] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_thread.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946726] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/__init__.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946783] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_Optimization.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946845] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.946926] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service\n'}
+[11.947003] (demo_python_service) StdoutLine: {'line': b'running install\n'}
+[11.947386] (demo_python_service) StdoutLine: {'line': b'running install_lib\n'}
+[11.948208] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948278] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_thread_base.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948365] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948461] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_two_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948530] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_thread.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948617] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948726] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_Optimization.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948794] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.948853] (demo_python_service) StdoutLine: {'line': b'copying /home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service\n'}
+[11.949321] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_thread_base.py to face_detect_client_thread_base.cpython-310.pyc\n'}
+[11.950597] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect.py to face_detect.cpython-310.pyc\n'}
+[11.951031] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_two_node.py to face_detect_client_two_node.cpython-310.pyc\n'}
+[11.951750] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_thread.py to face_detect_client_thread.cpython-310.pyc\n'}
+[11.952762] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py to __init__.cpython-310.pyc\n'}
+[11.952864] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_Optimization.py to face_detect_client_Optimization.cpython-310.pyc\n'}
+[11.953850] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-310.pyc\n'}
+[11.954739] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-310.pyc\n'}
+[11.955250] (demo_python_service) StdoutLine: {'line': b'running install_data\n'}
+[11.955539] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index\n'}
+[11.955683] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index\n'}
+[11.955815] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index/packages\n'}
+[11.956062] (demo_python_service) StdoutLine: {'line': b'copying resource/demo_python_service -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/ament_index/resource_index/packages\n'}
+[11.956173] (demo_python_service) StdoutLine: {'line': b'copying package.xml -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service\n'}
+[11.956273] (demo_python_service) StdoutLine: {'line': b'creating /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource\n'}
+[11.956378] (demo_python_service) StdoutLine: {'line': b'copying resource/default.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource\n'}
+[11.956474] (demo_python_service) StdoutLine: {'line': b'copying resource/test1.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource\n'}
+[11.956574] (demo_python_service) StdoutLine: {'line': b'copying resource/test2.jpg -> /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/share/demo_python_service/resource\n'}
+[11.956672] (demo_python_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.958055] (demo_python_service) StdoutLine: {'line': b'Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info\n'}
+[11.958769] (demo_python_service) StdoutLine: {'line': b'running install_scripts\n'}
+[11.964987] (-) TimerEvent: {}
+[11.985582] (demo_python_service) StdoutLine: {'line': b'Installing face_detect script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.985949] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_client_Optimization script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.986110] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_client_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.986258] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_client_thread script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.986473] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_client_two_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.986621] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_node script to /home/lxf/Desktop/ROS/12_Parameter_Python/install/demo_python_service/lib/demo_python_service\n'}
+[11.986834] (demo_python_service) StdoutLine: {'line': b"writing list of installed files to '/home/lxf/Desktop/ROS/12_Parameter_Python/build/demo_python_service/install.log'\n"}
+[12.016613] (demo_python_service) CommandEnded: {'returncode': 0}
+[12.023674] (demo_python_service) JobEnded: {'identifier': 'demo_python_service', 'rc': 0}
+[12.024742] (-) EventReactorShutdown: {}
