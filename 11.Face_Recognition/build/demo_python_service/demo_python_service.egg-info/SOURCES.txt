@@ -11,6 +11,7 @@ setup.py
 ../../build/demo_python_service/demo_python_service.egg-info/zip-safe
 demo_python_service/__init__.py
 demo_python_service/face_detect.py
+demo_python_service/face_detect_client_Optimization.py
 demo_python_service/face_detect_client_node.py
 demo_python_service/face_detect_client_thread.py
 demo_python_service/face_detect_client_thread_base.py

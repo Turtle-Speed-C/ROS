@@ -1,0 +1,237 @@
+[0.012s] Invoking command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/11.Face_Recognition/src/face_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces
+[0.201s] -- The C compiler identification is GNU 11.4.0
+[0.358s] -- The CXX compiler identification is GNU 11.4.0
+[0.375s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.519s] -- Detecting CXX compiler ABI info
+[0.632s] -- Detecting CXX compiler ABI info - done
+[0.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.658s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.916s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.050s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.120s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.129s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.142s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.695s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.460s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.462s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.497s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.498s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.498s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.529s] -- Found PythonExtra: .so  
+[2.608s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.637s] -- Added test 'lint_cmake' to check CMake code style
+[2.638s] -- Added test 'xmllint' to check XML markup files
+[2.640s] -- Configuring done
+[2.678s] -- Generating done
+[2.692s] -- Build files have been written to: /home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces
+[2.704s] Invoked command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/11.Face_Recognition/src/face_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces
+[2.705s] Invoking command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces -- -j16 -l16
+[2.758s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.775s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.784s] [  6%] Built target ament_cmake_python_copy_face_interfaces
+[3.089s] running egg_info
+[3.089s] creating face_interfaces.egg-info
+[3.090s] writing face_interfaces.egg-info/PKG-INFO
+[3.090s] writing dependency_links to face_interfaces.egg-info/dependency_links.txt
+[3.090s] writing top-level names to face_interfaces.egg-info/top_level.txt
+[3.090s] writing manifest file 'face_interfaces.egg-info/SOURCES.txt'
+[3.094s] reading manifest file 'face_interfaces.egg-info/SOURCES.txt'
+[3.095s] writing manifest file 'face_interfaces.egg-info/SOURCES.txt'
+[3.134s] [  6%] Built target ament_cmake_python_build_face_interfaces_egg
+[3.181s] [  9%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_generator_c.dir/rosidl_generator_c/face_interfaces/srv/detail/face_detector__functions.c.o[0m
+[3.184s] [  9%] Built target face_interfaces__cpp
+[3.203s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.204s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.208s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.338s] [ 22%] [32m[1mLinking C shared library libface_interfaces__rosidl_generator_c.so[0m
+[3.409s] [ 22%] Built target face_interfaces__rosidl_generator_c
+[3.425s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.425s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.432s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.616s] [ 35%] [32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/face_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.675s] [ 38%] [32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/face_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[3.694s] [ 41%] [32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/face_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[3.883s] [ 45%] [32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/face_interfaces/srv/face_detector__type_support.cpp.o[0m
+[3.892s] [ 48%] [32mBuilding CXX object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/face_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[3.909s] [ 51%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/face_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[3.932s] [ 54%] [32m[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_c.so[0m
+[3.980s] [ 58%] [32m[1mLinking C shared library libface_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.002s] [ 58%] Built target face_interfaces__rosidl_typesupport_c
+[4.042s] [ 58%] Built target face_interfaces__rosidl_typesupport_introspection_c
+[4.168s] [ 61%] [32m[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_cpp.so[0m
+[4.236s] [ 61%] Built target face_interfaces__rosidl_typesupport_cpp
+[4.334s] [ 64%] [32m[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.355s] [ 67%] [32m[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.361s] [ 70%] [32m[1mLinking CXX shared library libface_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.454s] [ 70%] Built target face_interfaces__rosidl_typesupport_introspection_cpp
+[4.479s] [ 70%] Built target face_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.484s] [ 70%] Built target face_interfaces__rosidl_typesupport_fastrtps_c
+[4.513s] [ 70%] Built target face_interfaces
+[4.544s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.048s] [ 74%] Built target face_interfaces__py
+[5.076s] [ 77%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_generator_py.dir/rosidl_generator_py/face_interfaces/srv/_face_detector_s.c.o[0m
+[5.301s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/face_interfaces/libface_interfaces__rosidl_generator_py.so[0m
+[5.358s] [ 80%] Built target face_interfaces__rosidl_generator_py
+[5.384s] [ 83%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.385s] [ 87%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.386s] [ 90%] [32mBuilding C object CMakeFiles/face_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.506s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.506s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.510s] [100%] [32m[1mLinking C shared library rosidl_generator_py/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.562s] [100%] Built target face_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.563s] [100%] Built target face_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.564s] [100%] Built target face_interfaces__rosidl_typesupport_c__pyext
+[5.579s] Invoked command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces -- -j16 -l16
+[5.591s] Invoking command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces
+[5.600s] -- Install configuration: ""
+[5.600s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/ament_index/resource_index/rosidl_interfaces/face_interfaces
+[5.600s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.h
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.c
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.h
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__functions.h
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.h
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[5.601s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.602s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/library_path.sh
+[5.602s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/library_path.dsv
+[5.602s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_generator_c.so
+[5.602s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_generator_c.so" to ""
+[5.602s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.602s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.602s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.602s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[5.603s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.603s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.603s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.603s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.603s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__traits.hpp
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.hpp
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__struct.hpp
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__builder.hpp
+[5.603s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/face_detector.hpp
+[5.604s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[5.604s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.604s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.604s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.605s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/dds_fastrtps
+[5.605s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.605s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.605s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.605s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.605s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[5.605s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.c
+[5.606s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_c.so
+[5.606s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_c.so
+[5.606s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_c.so" to ""
+[5.606s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces
+[5.606s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv
+[5.606s] -- Up-to-date: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__type_support.cpp
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/include/face_interfaces/face_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.606s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_cpp.so
+[5.606s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/pythonpath.sh
+[5.606s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/pythonpath.dsv
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector_s.c
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector.py
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/__init__.py
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_c.c
+[5.607s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/_face_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.608s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/libface_interfaces__rosidl_generator_py.so
+[5.608s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.608s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/__init__.py
+[5.657s] Listing '/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces'...
+[5.657s] Compiling '/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/__init__.py'...
+[5.657s] Listing '/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv'...
+[5.657s] Compiling '/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/__init__.py'...
+[5.657s] Compiling '/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/srv/_face_detector.py'...
+[5.664s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.664s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.664s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.664s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.664s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.665s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/local/lib/python3.10/dist-packages/face_interfaces/face_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.665s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_generator_py.so
+[5.666s] -- Set runtime path of "/home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/lib/libface_interfaces__rosidl_generator_py.so" to ""
+[5.666s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/srv/FaceDetector.idl
+[5.666s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/srv/FaceDetector.srv
+[5.666s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Request.msg
+[5.666s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/srv/FaceDetector_Response.msg
+[5.666s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/ament_index/resource_index/package_run_dependencies/face_interfaces
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/ament_index/resource_index/parent_prefix_path/face_interfaces
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.sh
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/ament_prefix_path.dsv
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/path.sh
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/environment/path.dsv
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/local_setup.bash
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/local_setup.sh
+[5.667s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/local_setup.zsh
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/local_setup.dsv
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/package.dsv
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/ament_index/resource_index/packages/face_interfaces
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_cppExport.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.668s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.669s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/export_face_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/cmake/face_interfacesConfig-version.cmake
+[5.670s] -- Installing: /home/lxf/Desktop/ROS/11.Face_Recognition/install/face_interfaces/share/face_interfaces/package.xml
+[5.674s] Invoked command in '/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces

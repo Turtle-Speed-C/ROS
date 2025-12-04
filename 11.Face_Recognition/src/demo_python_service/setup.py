@@ -37,6 +37,7 @@ setup(
             "face_detect_client_node=demo_python_service.face_detect_client_node:main",
             "face_detect_client_two_node=demo_python_service.face_detect_client_two_node:main",
             "face_detect_client_thread=demo_python_service.face_detect_client_thread:main",
+            "face_detect_client_Optimization=demo_python_service.face_detect_client_Optimization:main",
         ],
     },
 )

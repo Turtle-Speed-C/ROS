@@ -1,2 +1,0 @@
-Invoking command in '/home/lxf/ROS/11.Face_Recognition/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/ROS/11.Face_Recognition/src/face_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces
-Invoked command in '/home/lxf/ROS/11.Face_Recognition/build/face_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/ROS/11.Face_Recognition/src/face_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/ROS/11.Face_Recognition/install/face_interfaces

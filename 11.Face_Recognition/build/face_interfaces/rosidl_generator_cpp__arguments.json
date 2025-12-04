@@ -1,9 +1,9 @@
 {
   "package_name": "face_interfaces",
-  "output_dir": "/home/lxf/ROS/11.Face_Recognition/build/face_interfaces/rosidl_generator_cpp/face_interfaces",
+  "output_dir": "/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces/rosidl_generator_cpp/face_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/lxf/ROS/11.Face_Recognition/build/face_interfaces/rosidl_adapter/face_interfaces:srv/FaceDetector.idl"
+    "/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces/rosidl_adapter/face_interfaces:srv/FaceDetector.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -115,7 +115,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/lxf/ROS/11.Face_Recognition/build/face_interfaces/rosidl_adapter/face_interfaces/srv/FaceDetector.idl",
+    "/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces/rosidl_adapter/face_interfaces/srv/FaceDetector.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

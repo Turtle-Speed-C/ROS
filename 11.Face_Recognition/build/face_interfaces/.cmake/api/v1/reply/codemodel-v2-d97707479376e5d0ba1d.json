@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-71bd0258fd7314961eb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "face_interfaces__py",
+					"jsonFile" : "directory-face_interfaces__py-1ebdc19214c39487c8c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces/face_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "face_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_face_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_face_interfaces_egg-44259f9ffd9ca05ad4b0.json",
+					"name" : "ament_cmake_python_build_face_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_face_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_face_interfaces-516ee55379b3a256490c.json",
+					"name" : "ament_cmake_python_copy_face_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces-288c9b89b73f43a23977.json",
+					"name" : "face_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__cpp-c5e163a086885ee6120c.json",
+					"name" : "face_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "face_interfaces__py::@31baee72cd8cf1861fb9",
+					"jsonFile" : "target-face_interfaces__py-a53cb37e00f237184e36.json",
+					"name" : "face_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_generator_c-9f4f118a457ac6239902.json",
+					"name" : "face_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_generator_py-32edb28319d51767f5bc.json",
+					"name" : "face_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_c-b85456c6e0b5214a08e4.json",
+					"name" : "face_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_c__pyext-1be8f66a76e45c498634.json",
+					"name" : "face_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_cpp-a74f7e4980d54f8eeae7.json",
+					"name" : "face_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_fastrtps_c-f2765637e0a6158866fd.json",
+					"name" : "face_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_fastrtps_c__pyext-a56e3682d6b0fd35ae25.json",
+					"name" : "face_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_fastrtps_cpp-e661317bd800c2d30b6d.json",
+					"name" : "face_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_introspection_c-c8a1e068a33a4c1e2d0c.json",
+					"name" : "face_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_introspection_c__pyext-62654d46bd904f4b1b33.json",
+					"name" : "face_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces__rosidl_typesupport_introspection_cpp-20528b2ef0a0d34e88f1.json",
+					"name" : "face_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face_interfaces_uninstall-8ee91dde9b55648d94e6.json",
+					"name" : "face_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-491ab8e43c8f5327c2d7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lxf/Desktop/ROS/11.Face_Recognition/build/face_interfaces",
+		"source" : "/home/lxf/Desktop/ROS/11.Face_Recognition/src/face_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

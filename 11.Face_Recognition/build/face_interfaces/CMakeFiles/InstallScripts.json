@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/lxf/ROS/11.Face_Recognition/build/face_interfaces/cmake_install.cmake",
-		"/home/lxf/ROS/11.Face_Recognition/build/face_interfaces/face_interfaces__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
