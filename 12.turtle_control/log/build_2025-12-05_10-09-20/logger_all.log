@@ -1,0 +1,212 @@
+[0.069s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.069s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x784af39f2860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x784af3987fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x784af3987fd0>>)[0m
+[0.169s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/lxf/Desktop/ROS/12.turtle_control'
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.170s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extension 'ignore'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extension 'ignore_ament_install'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extensions ['colcon_pkg']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extension 'colcon_pkg'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extensions ['colcon_meta']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extension 'colcon_meta'
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extensions ['ros']
+[0.178s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_cpp_turtle_control_service) by extension 'ros'
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/demo_cpp_turtle_control_service' with type 'ros.ament_cmake' and name 'demo_cpp_turtle_control_service'[0m
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extension 'ignore'
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extension 'ignore_ament_install'
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extensions ['colcon_pkg']
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extension 'colcon_pkg'
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extensions ['colcon_meta']
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extension 'colcon_meta'
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extensions ['ros']
+[0.180s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/turtle_control_interfaces) by extension 'ros'
+[0.181s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/turtle_control_interfaces' with type 'ros.ament_cmake' and name 'turtle_control_interfaces'[0m
+[0.181s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.181s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.181s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.181s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.181s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.200s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 271 installed packages in /opt/ros/humble[0m
+[0.201s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_args' from command line to 'None'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_target' from command line to 'None'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_cpp_turtle_control_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'demo_cpp_turtle_control_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service', 'merge_install': False, 'path': '/home/lxf/Desktop/ROS/12.turtle_control/src/demo_cpp_turtle_control_service', 'symlink_install': False, 'test_result_base': None}[0m
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.221s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'turtle_control_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'turtle_control_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces', 'merge_install': False, 'path': '/home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.222s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.223s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.223s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/lxf/Desktop/ROS/12.turtle_control/src/demo_cpp_turtle_control_service' with build type 'ament_cmake'
+[0.223s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/lxf/Desktop/ROS/12.turtle_control/src/demo_cpp_turtle_control_service'
+[0.224s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.224s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.226s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces' with build type 'ament_cmake'
+[0.226s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces'
+[0.226s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.231s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16[0m
+[0.233s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces[0m
+[0.260s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16[0m
+[0.266s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service[0m
+[0.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(demo_cpp_turtle_control_service)
+[0.273s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service[0m
+[0.274s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service' for CMake module files
+[0.274s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service' for CMake config files
+[0.274s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_cpp_turtle_control_service', 'cmake_prefix_path')
+[0.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.ps1'
+[0.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.dsv'
+[0.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.sh'
+[0.276s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/bin'
+[0.276s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/pkgconfig/demo_cpp_turtle_control_service.pc'
+[0.276s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/python3.10/site-packages'
+[0.276s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/bin'
+[0.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.ps1'
+[0.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.dsv'
+[0.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.sh'
+[0.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.bash'
+[0.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.zsh'
+[0.278s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/colcon-core/packages/demo_cpp_turtle_control_service)
+[0.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(demo_cpp_turtle_control_service)
+[0.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service' for CMake module files
+[0.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service' for CMake config files
+[0.279s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_cpp_turtle_control_service', 'cmake_prefix_path')
+[0.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.ps1'
+[0.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.dsv'
+[0.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/hook/cmake_prefix_path.sh'
+[0.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/bin'
+[0.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/pkgconfig/demo_cpp_turtle_control_service.pc'
+[0.280s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/python3.10/site-packages'
+[0.281s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/bin'
+[0.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.ps1'
+[0.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.dsv'
+[0.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.sh'
+[0.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.bash'
+[0.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.zsh'
+[0.282s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/colcon-core/packages/demo_cpp_turtle_control_service)
+[1.403s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces[0m
+[1.404s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16[0m
+[3.248s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16[0m
+[3.248s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces[0m
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtle_control_interfaces)
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces' for CMake module files
+[3.299s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces[0m
+[3.299s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces' for CMake config files
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtle_control_interfaces', 'cmake_prefix_path')
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.ps1'
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.dsv'
+[3.300s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.sh'
+[3.301s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib'
+[3.301s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtle_control_interfaces', 'ld_library_path_lib')
+[3.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.ps1'
+[3.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.dsv'
+[3.301s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.sh'
+[3.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/bin'
+[3.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/pkgconfig/turtle_control_interfaces.pc'
+[3.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/python3.10/site-packages'
+[3.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/bin'
+[3.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.ps1'
+[3.302s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.dsv'
+[3.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.sh'
+[3.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.bash'
+[3.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.zsh'
+[3.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/colcon-core/packages/turtle_control_interfaces)
+[3.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(turtle_control_interfaces)
+[3.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces' for CMake module files
+[3.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces' for CMake config files
+[3.304s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtle_control_interfaces', 'cmake_prefix_path')
+[3.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.ps1'
+[3.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.dsv'
+[3.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/cmake_prefix_path.sh'
+[3.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib'
+[3.305s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('turtle_control_interfaces', 'ld_library_path_lib')
+[3.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.ps1'
+[3.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.dsv'
+[3.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/hook/ld_library_path_lib.sh'
+[3.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/bin'
+[3.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/pkgconfig/turtle_control_interfaces.pc'
+[3.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/python3.10/site-packages'
+[3.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/bin'
+[3.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.ps1'
+[3.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.dsv'
+[3.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.sh'
+[3.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.bash'
+[3.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.zsh'
+[3.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/colcon-core/packages/turtle_control_interfaces)
+[3.308s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[3.308s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[3.308s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[3.308s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[3.312s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.312s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.312s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[3.322s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[3.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/12.turtle_control/install/local_setup.ps1'
+[3.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/lxf/Desktop/ROS/12.turtle_control/install/_local_setup_util_ps1.py'
+[3.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/12.turtle_control/install/setup.ps1'
+[3.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/12.turtle_control/install/local_setup.sh'
+[3.327s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/lxf/Desktop/ROS/12.turtle_control/install/_local_setup_util_sh.py'
+[3.327s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/12.turtle_control/install/setup.sh'
+[3.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/12.turtle_control/install/local_setup.bash'
+[3.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/12.turtle_control/install/setup.bash'
+[3.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/12.turtle_control/install/local_setup.zsh'
+[3.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/12.turtle_control/install/setup.zsh'

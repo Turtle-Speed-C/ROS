@@ -8,23 +8,21 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(sensor_msgs REQUIRED)
-# 这个是图片识别特有的包
-# 定义了图片消息接口sensor_msgs/msg/Image
+# 这个是图片识别特有的包 定义了图片消息接口sensor_msgs/msg/Image
 find_package(rosidl_default_generators REQUIRED)
 # 用于将自定义的消息文件转化为C++、python源码模块
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "srv/FaceDetector.srv"
-  DEPENDENCIES sensor_msgs)
-  
+rosidl_generate_interfaces(${PROJECT_NAME} "srv/FaceDetector.srv" DEPENDENCIES
+                           sensor_msgs)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
+  # the following line skips the linter which checks for copyrights comment the
+  # line when a copyright and license is added to all source files
   set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
+  # the following line skips cpplint (only works in a git repo) comment the line
+  # when this package is in a git repo and when a copyright and license is added
+  # to all source files
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()

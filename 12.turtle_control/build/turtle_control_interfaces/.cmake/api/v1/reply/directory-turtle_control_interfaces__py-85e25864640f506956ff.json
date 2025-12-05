@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtle_control_interfaces__py",
+		"source" : "/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces/turtle_control_interfaces__py"
+	}
+}

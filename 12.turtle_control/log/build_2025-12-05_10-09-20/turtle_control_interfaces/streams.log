@@ -1,0 +1,253 @@
+[0.006s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces
+[0.016s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.100s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.102s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.137s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.419s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.010s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.012s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.036s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.037s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.037s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.067s] -- Found PythonExtra: .so  
+[1.121s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.138s] -- Added test 'lint_cmake' to check CMake code style
+[1.139s] -- Added test 'xmllint' to check XML markup files
+[1.140s] -- Configuring done
+[1.164s] -- Generating done
+[1.172s] -- Build files have been written to: /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces
+[1.176s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces
+[1.177s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16
+[1.228s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.241s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.248s] [  5%] Built target ament_cmake_python_copy_turtle_control_interfaces
+[1.395s] running egg_info
+[1.396s] creating turtle_control_interfaces.egg-info
+[1.396s] writing turtle_control_interfaces.egg-info/PKG-INFO
+[1.396s] writing dependency_links to turtle_control_interfaces.egg-info/dependency_links.txt
+[1.396s] writing top-level names to turtle_control_interfaces.egg-info/top_level.txt
+[1.396s] writing manifest file 'turtle_control_interfaces.egg-info/SOURCES.txt'
+[1.398s] reading manifest file 'turtle_control_interfaces.egg-info/SOURCES.txt'
+[1.398s] writing manifest file 'turtle_control_interfaces.egg-info/SOURCES.txt'
+[1.417s] [  5%] Built target ament_cmake_python_build_turtle_control_interfaces_egg
+[1.510s] [  5%] Built target turtle_control_interfaces__cpp
+[1.516s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.518s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.518s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.523s] [ 15%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_control_interfaces/srv/detail/patrol__functions.c.o[0m
+[1.525s] [ 17%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_control_interfaces/srv/detail/face_detector__functions.c.o[0m
+[1.588s] [ 20%] [32m[1mLinking C shared library libturtle_control_interfaces__rosidl_generator_c.so[0m
+[1.623s] [ 20%] Built target turtle_control_interfaces__rosidl_generator_c
+[1.630s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.634s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.634s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.750s] [ 30%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_control_interfaces/srv/face_detector__type_support.cpp.o[0m
+[1.752s] [ 33%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_control_interfaces/srv/patrol__type_support.cpp.o[0m
+[1.775s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_control_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[1.777s] [ 38%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_control_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[1.777s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_control_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[1.777s] [ 43%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_control_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[1.859s] [ 46%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_control_interfaces/srv/face_detector__type_support.cpp.o[0m
+[1.860s] [ 48%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_control_interfaces/srv/patrol__type_support.cpp.o[0m
+[1.894s] [ 51%] [32m[1mLinking CXX shared library libturtle_control_interfaces__rosidl_typesupport_c.so[0m
+[1.912s] [ 53%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_control_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[1.913s] [ 56%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_control_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[1.914s] [ 58%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_control_interfaces/srv/detail/patrol__type_support.c.o[0m
+[1.914s] [ 61%] [32mBuilding CXX object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_control_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[1.937s] [ 61%] Built target turtle_control_interfaces__rosidl_typesupport_c
+[1.955s] [ 64%] [32m[1mLinking C shared library libturtle_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.990s] [ 64%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_c
+[2.066s] [ 66%] [32m[1mLinking CXX shared library libturtle_control_interfaces__rosidl_typesupport_cpp.so[0m
+[2.083s] [ 69%] [32m[1mLinking CXX shared library libturtle_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.100s] [ 69%] Built target turtle_control_interfaces__rosidl_typesupport_cpp
+[2.106s] [ 71%] [32m[1mLinking CXX shared library libturtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.143s] [ 71%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_cpp
+[2.148s] [ 74%] [32m[1mLinking CXX shared library libturtle_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.170s] [ 74%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.204s] [ 74%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_c
+[2.220s] [ 74%] Built target turtle_control_interfaces
+[2.242s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.670s] [ 76%] Built target turtle_control_interfaces__py
+[2.688s] [ 79%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_control_interfaces/srv/_face_detector_s.c.o[0m
+[2.690s] [ 82%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_control_interfaces/srv/_patrol_s.c.o[0m
+[2.816s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/turtle_control_interfaces/libturtle_control_interfaces__rosidl_generator_py.so[0m
+[2.872s] [ 84%] Built target turtle_control_interfaces__rosidl_generator_py
+[2.902s] [ 89%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.902s] [ 89%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.903s] [ 92%] [32mBuilding C object CMakeFiles/turtle_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.970s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.971s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.972s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.997s] [100%] Built target turtle_control_interfaces__rosidl_typesupport_c__pyext
+[3.000s] [100%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.010s] [100%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.021s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16
+[3.022s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces
+[3.029s] -- Install configuration: ""
+[3.029s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_control_interfaces
+[3.029s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.029s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.029s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/patrol.h
+[3.029s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__struct.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__struct.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__functions.c
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__functions.c
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__functions.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__functions.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/face_detector.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/library_path.sh
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/library_path.dsv
+[3.030s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_c.so
+[3.031s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_c.so" to ""
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.031s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[3.031s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg
+[3.031s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.031s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.031s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.031s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.031s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.c
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.c
+[3.032s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_c.so
+[3.032s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_c.so
+[3.032s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_c.so" to ""
+[3.032s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.032s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/patrol.hpp
+[3.032s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.032s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__traits.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__builder.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__struct.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__struct.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__builder.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__traits.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/face_detector.hpp
+[3.033s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.033s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.033s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.033s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/dds_fastrtps
+[3.033s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[3.033s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.034s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.034s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces
+[3.034s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv
+[3.034s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.cpp
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.cpp
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.034s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_cpp.so
+[3.034s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/pythonpath.sh
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/pythonpath.dsv
+[3.034s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/libturtle_control_interfaces__rosidl_generator_py.so
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_face_detector_s.c
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_patrol_s.c
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_face_detector.py
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_patrol.py
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/__init__.py
+[3.035s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.036s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.036s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.036s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.036s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_c.c
+[3.036s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/__init__.py
+[3.064s] Listing '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces'...
+[3.064s] Compiling '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/__init__.py'...
+[3.064s] Listing '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv'...
+[3.064s] Compiling '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/__init__.py'...
+[3.064s] Compiling '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_face_detector.py'...
+[3.064s] Compiling '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_patrol.py'...
+[3.067s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.067s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.067s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.067s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.067s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.067s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_py.so
+[3.068s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_py.so" to ""
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector.idl
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol.idl
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector.srv
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector_Request.msg
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector_Response.msg
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol.srv
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol_Request.msg
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol_Response.msg
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_control_interfaces
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_control_interfaces
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/ament_prefix_path.sh
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/ament_prefix_path.dsv
+[3.068s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/path.sh
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/path.dsv
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.bash
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.sh
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.zsh
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.dsv
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.dsv
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/packages/turtle_control_interfaces
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cExport.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cExport.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.069s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cppExport.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cppExport.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_pyExport.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.070s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.071s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfacesConfig.cmake
+[3.071s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfacesConfig-version.cmake
+[3.071s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.xml
+[3.073s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces
