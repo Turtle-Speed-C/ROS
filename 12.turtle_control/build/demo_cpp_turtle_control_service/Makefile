@@ -197,6 +197,80 @@ demo_cpp_turtle_control_service_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_cpp_turtle_control_service_uninstall.dir/build.make CMakeFiles/demo_cpp_turtle_control_service_uninstall.dir/build
 .PHONY : demo_cpp_turtle_control_service_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named turtle_control_service
+
+# Build rule for target.
+turtle_control_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_control_service
+.PHONY : turtle_control_service
+
+# fast build rule for target.
+turtle_control_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_service.dir/build.make CMakeFiles/turtle_control_service.dir/build
+.PHONY : turtle_control_service/fast
+
+#=============================================================================
+# Target rules for targets named patrol_client
+
+# Build rule for target.
+patrol_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 patrol_client
+.PHONY : patrol_client
+
+# fast build rule for target.
+patrol_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/build
+.PHONY : patrol_client/fast
+
+src/patrol_client.o: src/patrol_client.cpp.o
+.PHONY : src/patrol_client.o
+
+# target to build an object file
+src/patrol_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o
+.PHONY : src/patrol_client.cpp.o
+
+src/patrol_client.i: src/patrol_client.cpp.i
+.PHONY : src/patrol_client.i
+
+# target to preprocess a source file
+src/patrol_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.i
+.PHONY : src/patrol_client.cpp.i
+
+src/patrol_client.s: src/patrol_client.cpp.s
+.PHONY : src/patrol_client.s
+
+# target to generate assembly for a file
+src/patrol_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.s
+.PHONY : src/patrol_client.cpp.s
+
+src/turtle_control_service.o: src/turtle_control_service.cpp.o
+.PHONY : src/turtle_control_service.o
+
+# target to build an object file
+src/turtle_control_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_service.dir/build.make CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o
+.PHONY : src/turtle_control_service.cpp.o
+
+src/turtle_control_service.i: src/turtle_control_service.cpp.i
+.PHONY : src/turtle_control_service.i
+
+# target to preprocess a source file
+src/turtle_control_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_service.dir/build.make CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.i
+.PHONY : src/turtle_control_service.cpp.i
+
+src/turtle_control_service.s: src/turtle_control_service.cpp.s
+.PHONY : src/turtle_control_service.s
+
+# target to generate assembly for a file
+src/turtle_control_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_service.dir/build.make CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.s
+.PHONY : src/turtle_control_service.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... demo_cpp_turtle_control_service_uninstall"
 	@echo "... uninstall"
+	@echo "... patrol_client"
+	@echo "... turtle_control_service"
+	@echo "... src/patrol_client.o"
+	@echo "... src/patrol_client.i"
+	@echo "... src/patrol_client.s"
+	@echo "... src/turtle_control_service.o"
+	@echo "... src/turtle_control_service.i"
+	@echo "... src/turtle_control_service.s"
 .PHONY : help
 
 

@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16
+[0.050s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.183s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.184s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.237s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.238s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.382s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.392s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.424s] -- Found turtle_control_interfaces: 0.0.0 (/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake)
+[0.462s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.539s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.539s] -- Configured cppcheck include dirs: /home/lxf/Desktop/ROS/12.turtle_control/src/demo_cpp_turtle_control_service/include
+[0.539s] -- Configured cppcheck exclude dirs and/or files: 
+[0.541s] -- Added test 'lint_cmake' to check CMake code style
+[0.544s] -- Added test 'uncrustify' to check C / C++ code style
+[0.544s] -- Configured uncrustify additional arguments: 
+[0.545s] -- Added test 'xmllint' to check XML markup files
+[0.547s] -- Configuring done
+[0.565s] -- Generating done
+[0.570s] -- Build files have been written to: /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service
+[0.634s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o[0m
+[0.808s] [01m[K/home/lxf/Desktop/ROS/12.turtle_control/src/demo_cpp_turtle_control_service/src/turtle_control_service.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kturtle_control_interfaces/srv/Patrol.hpp: 没有那个文件或目录
+[0.808s]     4 | #include [01;31m[K"turtle_control_interfaces/srv/Patrol.hpp"[m[K
+[0.808s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.808s] compilation terminated.
+[0.809s] gmake[2]: *** [CMakeFiles/turtle_control_service.dir/build.make:76：CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o] 错误 1
+[0.810s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_control_service.dir/all] 错误 2
+[0.810s] gmake: *** [Makefile:146：all] 错误 2
+[0.812s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '2': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16

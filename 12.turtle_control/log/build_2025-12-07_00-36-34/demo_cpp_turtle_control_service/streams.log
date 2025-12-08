@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target turtle_control_service[0m
+[0.168s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o[0m
+[15.232s] [100%] [32m[1mLinking CXX executable turtle_control_service[0m
+[16.912s] [100%] Built target turtle_control_service
+[16.957s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '0': CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16
+[16.964s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service
+[16.999s] -- Install configuration: ""
+[17.000s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/turtle_control_service
+[17.015s] -- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/turtle_control_service" to ""
+[17.015s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_turtle_control_service
+[17.015s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_turtle_control_service
+[17.016s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/ament_prefix_path.sh
+[17.017s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/ament_prefix_path.dsv
+[17.018s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/path.sh
+[17.018s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/path.dsv
+[17.019s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.bash
+[17.019s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.sh
+[17.020s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.zsh
+[17.020s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.dsv
+[17.020s] -- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.dsv
+[17.021s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/packages/demo_cpp_turtle_control_service
+[17.021s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/cmake/demo_cpp_turtle_control_serviceConfig.cmake
+[17.022s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/cmake/demo_cpp_turtle_control_serviceConfig-version.cmake
+[17.022s] -- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.xml
+[17.035s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '0': CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service

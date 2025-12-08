@@ -1,5 +1,7 @@
 /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/uninstall.dir
 /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/demo_cpp_turtle_control_service_uninstall.dir
+/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/turtle_control_service.dir
+/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/patrol_client.dir
 /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/test.dir
 /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/edit_cache.dir
 /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service/CMakeFiles/rebuild_cache.dir

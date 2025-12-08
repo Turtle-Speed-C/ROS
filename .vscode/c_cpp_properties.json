@@ -5,7 +5,6 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/${ROS_DISTRO}/include/**",
-                "/usr/include/x86_64-linux-gnu/qt5/**",
                 "/opt/ros/humble/include/**"
             ],
             "defines": [],

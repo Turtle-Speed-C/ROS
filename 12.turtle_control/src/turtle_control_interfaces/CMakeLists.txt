@@ -27,3 +27,8 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
+# 📌 CMakeLists.txt = “厨房的食谱”
+# 作用：告诉编译器（colcon build）怎么把接口文件变成代码。
+# 📌 package.xml = “包裹的标签”
+# 作用：告诉 ROS 这个包是干什么的，需要什么工具。 

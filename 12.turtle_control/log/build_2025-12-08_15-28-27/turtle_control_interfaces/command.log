@@ -1,0 +1,2 @@
+Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16
+Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '2': /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16

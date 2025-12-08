@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces': /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16
+[0.047s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.165s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.463s] Error parsing '/home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces/package.xml':
+[0.497s] Traceback (most recent call last):
+[0.497s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.497s]     root = dom.parseString(data)
+[0.497s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[0.498s]     return expatbuilder.parseString(string)
+[0.498s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.498s]     return builder.parseString(string)
+[0.498s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.498s]     parser.Parse(string, True)
+[0.498s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 7, column 0
+[0.498s] 
+[0.498s] During handling of the above exception, another exception occurred:
+[0.498s] 
+[0.498s] Traceback (most recent call last):
+[0.498s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.498s]     main()
+[0.498s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.498s]     raise e
+[0.498s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.498s]     package = parse_package_string(
+[0.498s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.498s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.498s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces/package.xml':
+[0.498s] The manifest contains invalid XML:
+[0.498s] XML or text declaration not at start of entity: line 7, column 0
+[0.511s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.511s]   execute_process(/usr/bin/python3
+[0.511s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.511s]   /home/lxf/Desktop/ROS/12.turtle_control/src/turtle_control_interfaces/package.xml
+[0.511s]   /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces/ament_cmake_core/package.cmake)
+[0.511s]   returned error code 1
+[0.511s] Call Stack (most recent call first):
+[0.511s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.511s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.511s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.511s] 
+[0.511s] [0m
+[0.511s] -- Configuring incomplete, errors occurred!
+[0.511s] See also "/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces/CMakeFiles/CMakeOutput.log".
+[0.516s] gmake: *** [Makefile:963：cmake_check_build_system] 错误 1
+[0.520s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces' returned '2': /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces -- -j16 -l16

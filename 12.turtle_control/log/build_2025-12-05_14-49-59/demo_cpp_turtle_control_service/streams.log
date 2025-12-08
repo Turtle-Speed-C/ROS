@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target turtle_control_service[0m
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o[0m
+[0.152s] [100%] [32m[1mLinking CXX executable turtle_control_service[0m
+[0.317s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.317s] (.text+0x1b): undefined reference to `main'
+[0.319s] collect2: error: ld returned 1 exit status
+[0.321s] gmake[2]: *** [CMakeFiles/turtle_control_service.dir/build.make:207：turtle_control_service] 错误 1
+[0.321s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_control_service.dir/all] 错误 2
+[0.322s] gmake: *** [Makefile:146：all] 错误 2
+[0.325s] Invoked command in '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service' returned '2': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service -- -j16 -l16

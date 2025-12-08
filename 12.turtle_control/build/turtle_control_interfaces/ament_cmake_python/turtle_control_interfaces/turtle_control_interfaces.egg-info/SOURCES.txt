@@ -4,3 +4,6 @@ turtle_control_interfaces.egg-info/PKG-INFO
 turtle_control_interfaces.egg-info/SOURCES.txt
 turtle_control_interfaces.egg-info/dependency_links.txt
 turtle_control_interfaces.egg-info/top_level.txt
+turtle_control_interfaces/srv/__init__.py
+turtle_control_interfaces/srv/_face_detector.py
+turtle_control_interfaces/srv/_patrol.py

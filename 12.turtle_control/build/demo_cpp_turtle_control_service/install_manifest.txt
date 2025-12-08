@@ -1,3 +1,5 @@
+/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/turtle_control_service
+/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/patrol_client
 /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_turtle_control_service
 /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_turtle_control_service
 /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/ament_prefix_path.sh

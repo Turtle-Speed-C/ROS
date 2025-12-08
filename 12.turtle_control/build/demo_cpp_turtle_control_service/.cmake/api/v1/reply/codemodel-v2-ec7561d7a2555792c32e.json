@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-80807973cf1d02871c9c.json",
+					"jsonFile" : "directory-.-dc523361152c367f1fa2.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -17,7 +17,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -33,7 +35,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -44,6 +48,20 @@
 					"id" : "demo_cpp_turtle_control_service_uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-demo_cpp_turtle_control_service_uninstall-42c6aeee0142a9144d4e.json",
 					"name" : "demo_cpp_turtle_control_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrol_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrol_client-01da903647cc944e7bed.json",
+					"name" : "patrol_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_service-b36bfe1c1e153c70f34c.json",
+					"name" : "turtle_control_service",
 					"projectIndex" : 0
 				},
 				{

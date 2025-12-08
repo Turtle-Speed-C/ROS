@@ -1,0 +1,393 @@
+[0.000000] (-) TimerEvent: {}
+[0.000811] (turtle_control_interfaces) JobQueued: {'identifier': 'turtle_control_interfaces', 'dependencies': OrderedDict()}
+[0.001585] (demo_cpp_turtle_control_service) JobQueued: {'identifier': 'demo_cpp_turtle_control_service', 'dependencies': OrderedDict([('turtle_control_interfaces', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces')])}
+[0.001703] (turtle_control_interfaces) JobStarted: {'identifier': 'turtle_control_interfaces'}
+[0.019360] (turtle_control_interfaces) JobProgress: {'identifier': 'turtle_control_interfaces', 'progress': 'cmake'}
+[0.020977] (turtle_control_interfaces) JobProgress: {'identifier': 'turtle_control_interfaces', 'progress': 'build'}
+[0.022836] (turtle_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1510'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1685'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:2968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1655,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', '6282847fa7bc45c5931efa7182a8e67e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z2LIH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.099371] (-) TimerEvent: {}
+[0.181742] (turtle_control_interfaces) StdoutLine: {'line': b'[  2%] Built target turtle_control_interfaces__cpp\n'}
+[0.194800] (turtle_control_interfaces) StdoutLine: {'line': b'[ 12%] Built target turtle_control_interfaces__rosidl_generator_c\n'}
+[0.199527] (-) TimerEvent: {}
+[0.203924] (turtle_control_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_turtle_control_interfaces\n'}
+[0.238119] (turtle_control_interfaces) StdoutLine: {'line': b'[ 23%] Built target turtle_control_interfaces__rosidl_typesupport_cpp\n'}
+[0.241977] (turtle_control_interfaces) StdoutLine: {'line': b'[ 33%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.244079] (turtle_control_interfaces) StdoutLine: {'line': b'[ 43%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.253586] (turtle_control_interfaces) StdoutLine: {'line': b'[ 61%] Built target turtle_control_interfaces__rosidl_typesupport_c\n'}
+[0.254108] (turtle_control_interfaces) StdoutLine: {'line': b'[ 64%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.254638] (turtle_control_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.299680] (-) TimerEvent: {}
+[0.302182] (turtle_control_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_control_interfaces\n'}
+[0.355854] (turtle_control_interfaces) StdoutLine: {'line': b'[ 76%] Built target turtle_control_interfaces__py\n'}
+[0.399850] (-) TimerEvent: {}
+[0.407905] (turtle_control_interfaces) StdoutLine: {'line': b'[ 84%] Built target turtle_control_interfaces__rosidl_generator_py\n'}
+[0.461018] (turtle_control_interfaces) StdoutLine: {'line': b'[ 89%] Built target turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.461542] (turtle_control_interfaces) StdoutLine: {'line': b'[ 94%] Built target turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.463303] (turtle_control_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_control_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.499992] (-) TimerEvent: {}
+[0.600544] (-) TimerEvent: {}
+[0.701150] (-) TimerEvent: {}
+[0.768005] (turtle_control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.769733] (turtle_control_interfaces) StdoutLine: {'line': b'writing turtle_control_interfaces.egg-info/PKG-INFO\n'}
+[0.770169] (turtle_control_interfaces) StdoutLine: {'line': b'writing dependency_links to turtle_control_interfaces.egg-info/dependency_links.txt\n'}
+[0.770386] (turtle_control_interfaces) StdoutLine: {'line': b'writing top-level names to turtle_control_interfaces.egg-info/top_level.txt\n'}
+[0.775760] (turtle_control_interfaces) StdoutLine: {'line': b"reading manifest file 'turtle_control_interfaces.egg-info/SOURCES.txt'\n"}
+[0.777053] (turtle_control_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_control_interfaces.egg-info/SOURCES.txt'\n"}
+[0.801336] (-) TimerEvent: {}
+[0.840618] (turtle_control_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtle_control_interfaces_egg\n'}
+[0.866267] (turtle_control_interfaces) CommandEnded: {'returncode': 0}
+[0.867993] (turtle_control_interfaces) JobProgress: {'identifier': 'turtle_control_interfaces', 'progress': 'install'}
+[0.887038] (turtle_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces'], 'cwd': '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1510'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1685'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:2968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1655,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', '6282847fa7bc45c5931efa7182a8e67e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z2LIH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12.turtle_control/build/turtle_control_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.901468] (-) TimerEvent: {}
+[0.908270] (turtle_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.908999] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_control_interfaces\n'}
+[0.909364] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.909504] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.909651] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/patrol.h\n'}
+[0.909801] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.909947] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__struct.h\n'}
+[0.910103] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__struct.h\n'}
+[0.910263] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.h\n'}
+[0.910421] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__functions.c\n'}
+[0.910730] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__functions.c\n'}
+[0.910874] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.h\n'}
+[0.911005] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__functions.h\n'}
+[0.911158] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__functions.h\n'}
+[0.911300] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/face_detector.h\n'}
+[0.911499] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg\n'}
+[0.911982] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.912180] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/library_path.sh\n'}
+[0.912327] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/library_path.dsv\n'}
+[0.912444] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_c.so\n'}
+[0.912577] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.912695] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.912802] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.912915] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h\n'}
+[0.913025] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[0.913156] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg\n'}
+[0.913292] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.913433] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.913587] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.913729] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.913866] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.913999] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[0.914212] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.c\n'}
+[0.914551] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h\n'}
+[0.914770] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.c\n'}
+[0.914883] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg\n'}
+[0.914986] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.915144] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.915263] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_c.so\n'}
+[0.915397] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.915686] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.915815] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/patrol.hpp\n'}
+[0.915935] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.916096] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[0.916257] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__builder.hpp\n'}
+[0.916410] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__struct.hpp\n'}
+[0.916580] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[0.916743] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[0.917035] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[0.917381] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.hpp\n'}
+[0.917541] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__traits.hpp\n'}
+[0.917677] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/face_detector.hpp\n'}
+[0.917805] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg\n'}
+[0.917931] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.918096] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.918377] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.918486] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.918609] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.918718] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/dds_fastrtps\n'}
+[0.918825] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.918927] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg\n'}
+[0.919029] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.919132] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.919232] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces\n'}
+[0.919338] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv\n'}
+[0.919439] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail\n'}
+[0.919553] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.919688] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[0.919807] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/patrol__type_support.cpp\n'}
+[0.919910] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/include/turtle_control_interfaces/turtle_control_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.920010] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.920111] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.920212] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/pythonpath.sh\n'}
+[0.920309] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/pythonpath.dsv\n'}
+[0.920407] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.920506] (turtle_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.920633] (turtle_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.920776] (turtle_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.920890] (turtle_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.920994] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces\n'}
+[0.921096] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.921202] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/libturtle_control_interfaces__rosidl_generator_py.so\n'}
+[0.921304] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv\n'}
+[0.921419] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_face_detector_s.c\n'}
+[0.921540] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_patrol_s.c\n'}
+[0.921667] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_face_detector.py\n'}
+[0.921784] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/_patrol.py\n'}
+[0.921923] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv/__init__.py\n'}
+[0.922047] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.922190] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.922328] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.922435] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.922553] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/_turtle_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.922661] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/__init__.py\n'}
+[0.998254] (turtle_control_interfaces) StdoutLine: {'line': b"Listing '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces'...\n"}
+[0.998661] (turtle_control_interfaces) StdoutLine: {'line': b"Listing '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/srv'...\n"}
+[1.001576] (-) TimerEvent: {}
+[1.009301] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.009875] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.010366] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages/turtle_control_interfaces/turtle_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.010801] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib/libturtle_control_interfaces__rosidl_generator_py.so\n'}
+[1.011048] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector.idl\n'}
+[1.011265] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol.idl\n'}
+[1.011534] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector.srv\n'}
+[1.011683] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector_Request.msg\n'}
+[1.011811] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/FaceDetector_Response.msg\n'}
+[1.011953] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol.srv\n'}
+[1.012075] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol_Request.msg\n'}
+[1.012318] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/srv/Patrol_Response.msg\n'}
+[1.012626] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_control_interfaces\n'}
+[1.012749] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_control_interfaces\n'}
+[1.012917] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/ament_prefix_path.sh\n'}
+[1.013032] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.013143] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/path.sh\n'}
+[1.013257] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/environment/path.dsv\n'}
+[1.013367] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.bash\n'}
+[1.013475] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.sh\n'}
+[1.013612] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.zsh\n'}
+[1.013723] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/local_setup.dsv\n'}
+[1.013958] (turtle_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.dsv\n'}
+[1.014078] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/ament_index/resource_index/packages/turtle_control_interfaces\n'}
+[1.014191] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.014442] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.014663] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.014837] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.014950] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.015061] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.015173] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.015284] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.015394] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.015530] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.015671] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.015786] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.015894] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.016125] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.016239] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.016348] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.016457] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/export_turtle_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.016581] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.016848] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.016989] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.017106] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.017211] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.017313] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.017444] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.017571] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfacesConfig.cmake\n'}
+[1.017711] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/cmake/turtle_control_interfacesConfig-version.cmake\n'}
+[1.017814] (turtle_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/share/turtle_control_interfaces/package.xml\n'}
+[1.020492] (turtle_control_interfaces) CommandEnded: {'returncode': 0}
+[1.066460] (turtle_control_interfaces) JobEnded: {'identifier': 'turtle_control_interfaces', 'rc': 0}
+[1.068915] (demo_cpp_turtle_control_service) JobStarted: {'identifier': 'demo_cpp_turtle_control_service'}
+[1.087448] (demo_cpp_turtle_control_service) JobProgress: {'identifier': 'demo_cpp_turtle_control_service', 'progress': 'cmake'}
+[1.089623] (demo_cpp_turtle_control_service) JobProgress: {'identifier': 'demo_cpp_turtle_control_service', 'progress': 'build'}
+[1.091891] (demo_cpp_turtle_control_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service', '--', '-j16', '-l16'], 'cwd': '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1510'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1685'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:2968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1655,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', '6282847fa7bc45c5931efa7182a8e67e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z2LIH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble')]), 'shell': False}
+[1.101736] (-) TimerEvent: {}
+[1.197624] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control_service\x1b[0m\n'}
+[1.201834] (-) TimerEvent: {}
+[1.236859] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_service.dir/src/turtle_control_service.cpp.o\x1b[0m\n'}
+[1.302048] (-) TimerEvent: {}
+[1.402678] (-) TimerEvent: {}
+[1.503236] (-) TimerEvent: {}
+[1.603956] (-) TimerEvent: {}
+[1.704649] (-) TimerEvent: {}
+[1.805210] (-) TimerEvent: {}
+[1.905825] (-) TimerEvent: {}
+[2.006367] (-) TimerEvent: {}
+[2.106967] (-) TimerEvent: {}
+[2.207654] (-) TimerEvent: {}
+[2.308208] (-) TimerEvent: {}
+[2.408842] (-) TimerEvent: {}
+[2.509440] (-) TimerEvent: {}
+[2.610171] (-) TimerEvent: {}
+[2.710747] (-) TimerEvent: {}
+[2.811357] (-) TimerEvent: {}
+[2.911999] (-) TimerEvent: {}
+[3.012538] (-) TimerEvent: {}
+[3.113036] (-) TimerEvent: {}
+[3.213618] (-) TimerEvent: {}
+[3.314219] (-) TimerEvent: {}
+[3.414947] (-) TimerEvent: {}
+[3.515639] (-) TimerEvent: {}
+[3.616339] (-) TimerEvent: {}
+[3.716882] (-) TimerEvent: {}
+[3.817444] (-) TimerEvent: {}
+[3.918031] (-) TimerEvent: {}
+[4.018531] (-) TimerEvent: {}
+[4.119022] (-) TimerEvent: {}
+[4.219543] (-) TimerEvent: {}
+[4.320138] (-) TimerEvent: {}
+[4.420922] (-) TimerEvent: {}
+[4.521617] (-) TimerEvent: {}
+[4.622131] (-) TimerEvent: {}
+[4.722707] (-) TimerEvent: {}
+[4.823232] (-) TimerEvent: {}
+[4.923844] (-) TimerEvent: {}
+[5.024501] (-) TimerEvent: {}
+[5.125075] (-) TimerEvent: {}
+[5.225647] (-) TimerEvent: {}
+[5.326207] (-) TimerEvent: {}
+[5.426988] (-) TimerEvent: {}
+[5.527651] (-) TimerEvent: {}
+[5.628318] (-) TimerEvent: {}
+[5.729045] (-) TimerEvent: {}
+[5.829704] (-) TimerEvent: {}
+[5.930405] (-) TimerEvent: {}
+[6.031072] (-) TimerEvent: {}
+[6.131703] (-) TimerEvent: {}
+[6.232415] (-) TimerEvent: {}
+[6.333376] (-) TimerEvent: {}
+[6.433977] (-) TimerEvent: {}
+[6.534748] (-) TimerEvent: {}
+[6.635385] (-) TimerEvent: {}
+[6.736102] (-) TimerEvent: {}
+[6.836685] (-) TimerEvent: {}
+[6.937327] (-) TimerEvent: {}
+[7.037955] (-) TimerEvent: {}
+[7.138631] (-) TimerEvent: {}
+[7.239628] (-) TimerEvent: {}
+[7.340885] (-) TimerEvent: {}
+[7.442018] (-) TimerEvent: {}
+[7.543182] (-) TimerEvent: {}
+[7.644210] (-) TimerEvent: {}
+[7.744864] (-) TimerEvent: {}
+[7.845593] (-) TimerEvent: {}
+[7.946187] (-) TimerEvent: {}
+[8.046705] (-) TimerEvent: {}
+[8.147486] (-) TimerEvent: {}
+[8.248274] (-) TimerEvent: {}
+[8.349047] (-) TimerEvent: {}
+[8.449792] (-) TimerEvent: {}
+[8.550289] (-) TimerEvent: {}
+[8.650884] (-) TimerEvent: {}
+[8.751805] (-) TimerEvent: {}
+[8.852578] (-) TimerEvent: {}
+[8.952900] (-) TimerEvent: {}
+[9.053257] (-) TimerEvent: {}
+[9.153608] (-) TimerEvent: {}
+[9.253976] (-) TimerEvent: {}
+[9.354332] (-) TimerEvent: {}
+[9.454675] (-) TimerEvent: {}
+[9.555057] (-) TimerEvent: {}
+[9.655456] (-) TimerEvent: {}
+[9.755994] (-) TimerEvent: {}
+[9.857006] (-) TimerEvent: {}
+[9.957955] (-) TimerEvent: {}
+[10.058791] (-) TimerEvent: {}
+[10.159142] (-) TimerEvent: {}
+[10.259478] (-) TimerEvent: {}
+[10.359891] (-) TimerEvent: {}
+[10.460244] (-) TimerEvent: {}
+[10.560667] (-) TimerEvent: {}
+[10.661179] (-) TimerEvent: {}
+[10.761621] (-) TimerEvent: {}
+[10.862162] (-) TimerEvent: {}
+[10.962585] (-) TimerEvent: {}
+[11.062998] (-) TimerEvent: {}
+[11.163340] (-) TimerEvent: {}
+[11.263729] (-) TimerEvent: {}
+[11.364090] (-) TimerEvent: {}
+[11.464465] (-) TimerEvent: {}
+[11.564842] (-) TimerEvent: {}
+[11.665240] (-) TimerEvent: {}
+[11.765583] (-) TimerEvent: {}
+[11.865927] (-) TimerEvent: {}
+[11.966273] (-) TimerEvent: {}
+[12.066633] (-) TimerEvent: {}
+[12.166971] (-) TimerEvent: {}
+[12.267310] (-) TimerEvent: {}
+[12.367598] (-) TimerEvent: {}
+[12.467897] (-) TimerEvent: {}
+[12.568262] (-) TimerEvent: {}
+[12.668612] (-) TimerEvent: {}
+[12.768939] (-) TimerEvent: {}
+[12.869284] (-) TimerEvent: {}
+[12.969589] (-) TimerEvent: {}
+[13.069923] (-) TimerEvent: {}
+[13.170263] (-) TimerEvent: {}
+[13.270615] (-) TimerEvent: {}
+[13.370968] (-) TimerEvent: {}
+[13.471317] (-) TimerEvent: {}
+[13.571661] (-) TimerEvent: {}
+[13.671992] (-) TimerEvent: {}
+[13.772312] (-) TimerEvent: {}
+[13.872645] (-) TimerEvent: {}
+[13.972992] (-) TimerEvent: {}
+[14.073304] (-) TimerEvent: {}
+[14.173618] (-) TimerEvent: {}
+[14.273913] (-) TimerEvent: {}
+[14.374227] (-) TimerEvent: {}
+[14.474573] (-) TimerEvent: {}
+[14.574927] (-) TimerEvent: {}
+[14.675243] (-) TimerEvent: {}
+[14.775581] (-) TimerEvent: {}
+[14.875880] (-) TimerEvent: {}
+[14.976182] (-) TimerEvent: {}
+[15.076686] (-) TimerEvent: {}
+[15.176979] (-) TimerEvent: {}
+[15.277253] (-) TimerEvent: {}
+[15.377538] (-) TimerEvent: {}
+[15.478044] (-) TimerEvent: {}
+[15.578943] (-) TimerEvent: {}
+[15.679684] (-) TimerEvent: {}
+[15.780031] (-) TimerEvent: {}
+[15.880367] (-) TimerEvent: {}
+[15.980771] (-) TimerEvent: {}
+[16.081106] (-) TimerEvent: {}
+[16.181560] (-) TimerEvent: {}
+[16.282055] (-) TimerEvent: {}
+[16.300175] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control_service\x1b[0m\n'}
+[16.382387] (-) TimerEvent: {}
+[16.483700] (-) TimerEvent: {}
+[16.585206] (-) TimerEvent: {}
+[16.686126] (-) TimerEvent: {}
+[16.786698] (-) TimerEvent: {}
+[16.887353] (-) TimerEvent: {}
+[16.987913] (-) TimerEvent: {}
+[17.088715] (-) TimerEvent: {}
+[17.189558] (-) TimerEvent: {}
+[17.290367] (-) TimerEvent: {}
+[17.391109] (-) TimerEvent: {}
+[17.491623] (-) TimerEvent: {}
+[17.592146] (-) TimerEvent: {}
+[17.692717] (-) TimerEvent: {}
+[17.793488] (-) TimerEvent: {}
+[17.894313] (-) TimerEvent: {}
+[17.980038] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'[100%] Built target turtle_control_service\n'}
+[17.994636] (-) TimerEvent: {}
+[18.025266] (demo_cpp_turtle_control_service) CommandEnded: {'returncode': 0}
+[18.029078] (demo_cpp_turtle_control_service) JobProgress: {'identifier': 'demo_cpp_turtle_control_service', 'progress': 'install'}
+[18.031429] (demo_cpp_turtle_control_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service'], 'cwd': '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1510'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1685'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4813'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:2968'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1655,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1655'), ('INVOCATION_ID', '6282847fa7bc45c5931efa7182a8e67e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z2LIH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/12.turtle_control/build/demo_cpp_turtle_control_service'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lxf/Desktop/ROS/12.turtle_control/install/turtle_control_interfaces:/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service:/opt/ros/humble')]), 'shell': False}
+[18.067946] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.069059] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/turtle_control_service\n'}
+[18.083000] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Set runtime path of "/home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/lib/demo_cpp_turtle_control_service/turtle_control_service" to ""\n'}
+[18.083723] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_turtle_control_service\n'}
+[18.084035] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_turtle_control_service\n'}
+[18.084304] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/ament_prefix_path.sh\n'}
+[18.085016] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/ament_prefix_path.dsv\n'}
+[18.086088] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/path.sh\n'}
+[18.086816] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/environment/path.dsv\n'}
+[18.087314] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.bash\n'}
+[18.087931] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.sh\n'}
+[18.088349] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.zsh\n'}
+[18.088793] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/local_setup.dsv\n'}
+[18.089197] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Installing: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.dsv\n'}
+[18.089594] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/ament_index/resource_index/packages/demo_cpp_turtle_control_service\n'}
+[18.090011] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/cmake/demo_cpp_turtle_control_serviceConfig.cmake\n'}
+[18.090440] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/cmake/demo_cpp_turtle_control_serviceConfig-version.cmake\n'}
+[18.090858] (demo_cpp_turtle_control_service) StdoutLine: {'line': b'-- Up-to-date: /home/lxf/Desktop/ROS/12.turtle_control/install/demo_cpp_turtle_control_service/share/demo_cpp_turtle_control_service/package.xml\n'}
+[18.094817] (-) TimerEvent: {}
+[18.101089] (demo_cpp_turtle_control_service) CommandEnded: {'returncode': 0}
+[18.174215] (demo_cpp_turtle_control_service) JobEnded: {'identifier': 'demo_cpp_turtle_control_service', 'rc': 0}
+[18.178022] (-) EventReactorShutdown: {}
