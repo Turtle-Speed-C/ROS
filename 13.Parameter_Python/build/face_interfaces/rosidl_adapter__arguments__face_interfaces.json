@@ -1,0 +1,6 @@
+{
+  "package_name": "face_interfaces",
+  "non_idl_tuples": [
+    "/home/lxf/Desktop/ROS/13.Parameter_Python/src/face_interfaces:srv/FaceDetector.srv"
+  ]
+}
