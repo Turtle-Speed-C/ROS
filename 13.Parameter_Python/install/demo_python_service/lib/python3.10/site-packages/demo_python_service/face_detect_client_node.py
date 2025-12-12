@@ -22,7 +22,10 @@ from cv_bridge import CvBridge
 class FaceDetectorClient(Node):
     def __init__(self):
         super().__init__("face_detect_client")
-        self.client_ = self.create_client(FaceDetector, "/face_detect")
+        self.client_ = self.create_client(
+            FaceDetector,       # 自定义的服务接口类型
+            "/face_detect"      # 服务的话题名
+        )
         self.bridge_ = CvBridge()
         self.test1_image_path_ = (
             get_package_share_directory("demo_python_service") + "/resource/test1.jpg"

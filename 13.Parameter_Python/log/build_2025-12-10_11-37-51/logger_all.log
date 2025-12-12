@@ -1,0 +1,198 @@
+[0.325s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.325s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7de2d63ee8f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7de2d6383eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7de2d6383eb0>>)[0m
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.623s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/lxf/Desktop/ROS/13.Parameter_Python'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extension 'ignore'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extension 'ignore_ament_install'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extensions ['colcon_pkg']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extension 'colcon_pkg'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extensions ['colcon_meta']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extension 'colcon_meta'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extensions ['ros']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/demo_python_service) by extension 'ros'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/demo_python_service' with type 'ros.ament_python' and name 'demo_python_service'[0m
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extension 'ignore'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extension 'ignore_ament_install'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extensions ['colcon_pkg']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extension 'colcon_pkg'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extensions ['colcon_meta']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extension 'colcon_meta'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extensions ['ros']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/face_interfaces) by extension 'ros'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/face_interfaces' with type 'ros.ament_cmake' and name 'face_interfaces'[0m
+[0.641s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.641s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.641s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.641s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.641s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.668s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.668s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.672s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 272 installed packages in /opt/ros/humble[0m
+[0.673s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'face_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'face_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces', 'merge_install': False, 'path': '/home/lxf/Desktop/ROS/13.Parameter_Python/src/face_interfaces', 'symlink_install': False, 'test_result_base': None}[0m
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_target' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'demo_python_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'demo_python_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service', 'merge_install': False, 'path': '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service', 'symlink_install': False, 'test_result_base': None}[0m
+[0.782s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.783s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.783s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/face_interfaces' with build type 'ament_cmake'
+[0.784s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/face_interfaces'
+[0.788s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.788s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.788s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.796s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces -- -j16 -l16[0m
+[1.228s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces -- -j16 -l16[0m
+[1.237s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces[0m
+[1.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(face_interfaces)
+[1.297s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/13.Parameter_Python/build/face_interfaces[0m
+[1.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces' for CMake module files
+[1.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces' for CMake config files
+[1.303s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_interfaces', 'cmake_prefix_path')
+[1.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.ps1'
+[1.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.dsv'
+[1.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.sh'
+[1.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib'
+[1.306s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_interfaces', 'ld_library_path_lib')
+[1.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.ps1'
+[1.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.dsv'
+[1.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.sh'
+[1.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/bin'
+[1.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib/pkgconfig/face_interfaces.pc'
+[1.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib/python3.10/site-packages'
+[1.309s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/bin'
+[1.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.ps1'
+[1.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.dsv'
+[1.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.sh'
+[1.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.bash'
+[1.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.zsh'
+[1.315s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/colcon-core/packages/face_interfaces)
+[1.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(face_interfaces)
+[1.316s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces' for CMake module files
+[1.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces' for CMake config files
+[1.317s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_interfaces', 'cmake_prefix_path')
+[1.317s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.ps1'
+[1.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.dsv'
+[1.318s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/cmake_prefix_path.sh'
+[1.319s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib'
+[1.319s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('face_interfaces', 'ld_library_path_lib')
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.ps1'
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.dsv'
+[1.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/hook/ld_library_path_lib.sh'
+[1.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/bin'
+[1.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib/pkgconfig/face_interfaces.pc'
+[1.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib/python3.10/site-packages'
+[1.322s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/bin'
+[1.322s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.ps1'
+[1.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.dsv'
+[1.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.sh'
+[1.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.bash'
+[1.324s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/face_interfaces/package.zsh'
+[1.324s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/share/colcon-core/packages/face_interfaces)
+[1.325s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service' with build type 'ament_python'
+[1.325s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_python_service', 'ament_prefix_path')
+[1.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.ps1'
+[1.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.dsv'
+[1.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.sh'
+[1.327s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.506s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service'
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.506s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.753s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data[0m
+[1.948s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service' for CMake module files
+[1.949s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data[0m
+[1.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service' for CMake config files
+[1.949s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib'
+[1.950s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/bin'
+[1.950s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/pkgconfig/demo_python_service.pc'
+[1.950s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages'
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('demo_python_service', 'pythonpath')
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/pythonpath.ps1'
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/pythonpath.dsv'
+[1.950s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/hook/pythonpath.sh'
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/bin'
+[1.951s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(demo_python_service)
+[1.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/package.ps1'
+[1.951s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/package.dsv'
+[1.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/package.sh'
+[1.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/package.bash'
+[1.952s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service/package.zsh'
+[1.952s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/colcon-core/packages/demo_python_service)
+[1.952s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.953s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.953s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[1.953s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.961s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.961s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.961s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.970s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.970s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/local_setup.ps1'
+[1.972s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/lxf/Desktop/ROS/13.Parameter_Python/install/_local_setup_util_ps1.py'
+[1.974s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/setup.ps1'
+[1.976s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/local_setup.sh'
+[1.977s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/lxf/Desktop/ROS/13.Parameter_Python/install/_local_setup_util_sh.py'
+[1.978s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/setup.sh'
+[1.980s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/local_setup.bash'
+[1.982s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/setup.bash'
+[1.983s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/local_setup.zsh'
+[1.985s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/lxf/Desktop/ROS/13.Parameter_Python/install/setup.zsh'

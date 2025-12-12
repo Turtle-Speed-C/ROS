@@ -1,0 +1,29 @@
+[0.388s] Invoking command in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data
+[0.533s] running egg_info
+[0.534s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.534s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.534s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.534s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.534s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.535s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.535s] adding license file 'LICENSE'
+[0.536s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.536s] running build
+[0.536s] running build_py
+[0.536s] running install
+[0.536s] running install_lib
+[0.537s] running install_data
+[0.537s] copying package.xml -> /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/share/demo_python_service
+[0.537s] running install_egg_info
+[0.539s] removing '/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.539s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[0.539s] running install_scripts
+[0.553s] Installing face_detect script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.553s] Installing face_detect_client_Optimization script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.553s] Installing face_detect_client_node script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.553s] Installing face_detect_client_thread script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.553s] Installing face_detect_client_two_node script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.553s] Installing face_detect_node_v1 script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.554s] Installing face_detect_node_v2 script to /home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/demo_python_service
+[0.554s] writing list of installed files to '/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/install.log'
+[0.571s] Invoked command in '/home/lxf/Desktop/ROS/13.Parameter_Python/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces LD_LIBRARY_PATH=/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/13.Parameter_Python/install/demo_python_service/lib/python3.10/site-packages:/home/lxf/Desktop/ROS/13.Parameter_Python/install/face_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/build install --record /home/lxf/Desktop/ROS/13.Parameter_Python/build/demo_python_service/install.log --single-version-externally-managed install_data

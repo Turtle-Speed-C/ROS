@@ -33,11 +33,14 @@ setup(
             # face_detect:指的是可执行文件的名字
             # demo_python_service包名
             # face_detect文件名
-            "face_detect_node=demo_python_service.face_detect_node:main",
-            "face_detect_client_node=demo_python_service.face_detect_client_node:main",
+            # "face_detect_node=demo_python_service.face_detect_node:main",
+            "face_detect_client_node_v1=demo_python_service.face_detect_client_node_v1:main",
+            "face_detect_client_node_v2=demo_python_service.face_detect_client_node_v2:main",
             "face_detect_client_two_node=demo_python_service.face_detect_client_two_node:main",
             "face_detect_client_thread=demo_python_service.face_detect_client_thread:main",
             "face_detect_client_Optimization=demo_python_service.face_detect_client_Optimization:main",
+            "face_detect_node_v1=demo_python_service.face_detect_node_v1:main",
+            "face_detect_node_v2=demo_python_service.face_detect_node_v2:main",
         ],
     },
 )
