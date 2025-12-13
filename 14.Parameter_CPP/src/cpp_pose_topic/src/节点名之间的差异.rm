@@ -1,0 +1,22 @@
+在这个代码中，有两种名字，一种是turtle_control，另一种是turtle_control
+
+他们的关系是：
+    包名：cpp_pose_topic
+    节点名：control_turtle_node（在 main 函数中定义）
+    可执行文件名：turtle_control（在 CMakeLists.txt 中定义）
+
+运行命令应该是：
+    ros2 run cpp_pose_topic turtle_control
+    control_turtle_node 是节点名，而 ros2 run 需要的是 “可执行文件名”
+
+两者的区别：
+
+可执行文件名 (turtle_control)：在 CMakeLists.txt 的 add_executable() 中定义
+节点名 (control_turtle_node)：在 C++ 代码的 std::make_shared<TurtleControl>("control_turtle_node") 中定义
+
+但是在
+lxf@lxf:~桌面/ROS/.订阅Pose实现闭环控 $ ros2 node list
+/control_turtle_node
+/turtlesi
+
+也就是说，在cpp中的name是节点名，但是运行的时候要的是可执行文件的名字。
