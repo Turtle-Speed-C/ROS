@@ -57,9 +57,9 @@ class FaceDetectorionNode(Node):
         # 没有这行代码：你无法在运行时修改参数（比如用 ros2 param set 命令）。
         for parameter in parameters:
             self.get_logger().info(f"参数 {parameter.name} 设置为：{parameter.value}")
-            if parameter.name == "face_locations_upsample_times":
+            if parameter.name == "face_location_upsample_times":
                 self.upsample_times_ = parameter.value  # 保存新值
-            if parameter.name == "face_locations_model":
+            elif parameter.name == "face_location_model":
                 self.model_ = parameter.value  # 保存新值
         # 表示接受所有修改。
         return SetParametersResult(successful=True)
@@ -80,8 +80,8 @@ class FaceDetectorionNode(Node):
         # 返回值：[(top, right, bottom, left), ...]
         face_locations = face_recognition.face_locations(
             cv_image,  # 输入图片
-            self.number_of_times_to_upsample,  # 图像放大次数,值越大，能检测到更小的人脸，但速度越慢.默认值为1，适合一般场景
-            self.model,  # 检测算法选择
+            self.upsample_times_,  # 图像放大次数,值越大，能检测到更小的人脸，但速度越慢.默认值为1，适合一般场景
+            self.model_,  # 检测算法选择
         )
 
         end_time = time.time()

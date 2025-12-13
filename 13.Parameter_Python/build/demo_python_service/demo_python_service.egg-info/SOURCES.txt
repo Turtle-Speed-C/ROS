@@ -12,7 +12,7 @@ setup.py
 demo_python_service/__init__.py
 demo_python_service/face_detect.py
 demo_python_service/face_detect_client_Optimization.py
-demo_python_service/face_detect_client_node.py
+demo_python_service/face_detect_client_node_v1.py
 demo_python_service/face_detect_client_node_v2.py
 demo_python_service/face_detect_client_thread.py
 demo_python_service/face_detect_client_thread_base.py

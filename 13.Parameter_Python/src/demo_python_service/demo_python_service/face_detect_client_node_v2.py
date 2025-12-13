@@ -1,4 +1,3 @@
-#
 import rclpy
 
 # 提供ROS节点的初始化、创建、通信等基础通信
@@ -55,6 +54,28 @@ class FaceDetectorClient(Node):
         # 注释show_face_loaction，防止显示阻塞无法多次请求
         # self.show_face_locations(response)
 
+    def update_detect_model(self, model):
+        # 1.创建一个参数对象
+        param = Parameter()
+        # param = Parameter() 是创建 ROS2 标准参数描述对象 的核心语句，用于实例化 rcl_interfaces.msg.Parameter 类（ROS2 官方定义的参数消息类型），目的是封装「单个参数的名称 + 类型 + 值」，作为 SetParameters 服务请求的最小单元 —— 因为 SetParameters 服务的请求字段 parameters 是 Parameter 对象列表，每个要修改的参数都必须先封装成这个对象才能被服务端识别。
+        param.name = "face_location_model"
+
+        # 2.创建参数对象并赋值
+        new_model_value = ParameterValue()
+        # 来源：from rcl_interfaces.msg import ParameterValue；
+        # 本质：ROS2 官方定义的「参数值描述消息类」，专门用于封装 “参数类型 + 具体值”，是 Parameter 对象 value 字段的唯一合法类型（不能用普通字符串 / 数字替代）。
+        new_model_value.type = ParameterType.PARAMETER_STRING
+        new_model_value.string_value = model
+        param.value = new_model_value  # 将「参数名（param.name）」和「参数类型 + 值（param.value）」绑定，让 param 成为一个完整的、可被服务端解析的参数对象。
+
+        # 3.请求更新参数并处理
+        response = self.call_set_parameters([param])
+        for result in response.results:
+            if result.successful:
+                self.get_logger().info(f" 参数 {param.name} 设置为 {model}")
+            else:
+                self.get_logger().info(f" 参数设置失败，原因为：{result.reason}")
+
     def call_set_parameters(self, parameters):
         # 1.创建一个客户端，并等待服务上线
         client = self.create_client(
@@ -69,34 +90,11 @@ class FaceDetectorClient(Node):
         request = SetParameters.Request()
         request.parameters = parameters
 
-        # 3. 异步调用、等待并返回响应结果
+        # 3.异步调用、等待并返回响应结果
         future = client.call_async(request)
         rclpy.spin_until_future_complete(self, future)
         response = future.result()
         return response
-
-    def update_detect_model(self, model):
-        # 1.创建一个参数对象
-        param = Parameter()
-        # param = Parameter() 是创建 ROS2 标准参数描述对象 的核心语句，用于实例化 rcl_interfaces.msg.Parameter 类（ROS2 官方定义的参数消息类型），目的是封装「单个参数的名称 + 类型 + 值」，作为 SetParameters 服务请求的最小单元 —— 因为 SetParameters 服务的请求字段 parameters 是 Parameter 对象列表，每个要修改的参数都必须先封装成这个对象才能被服务端识别。
-        param.name = "face_locations_model"
-
-        # 2.创建参数对象并赋值
-        new_model_value = (
-            ParameterValue()
-        )  # 来源：from rcl_interfaces.msg import ParameterValue；
-        # 本质：ROS2 官方定义的「参数值描述消息类」，专门用于封装 “参数类型 + 具体值”，是 Parameter 对象 value 字段的唯一合法类型（不能用普通字符串 / 数字替代）。
-        new_model_value.type = ParameterValue.PARAMETER_STRING
-        new_model_value.string_value = model
-        param.value = new_model_value  # 将「参数名（param.name）」和「参数类型 + 值（param.value）」绑定，让 param 成为一个完整的、可被服务端解析的参数对象。
-
-        # 3.请求更新参数并处理
-        response = self.call_set_parameters([param])
-        for result in response.results:
-            if result.successful:
-                self.get_logger().info(f" 参数 {param.name} 设置为 {model}")
-            else:
-                self.get_logger().info(f" 参数设置失败，原因为：{result.reason}")
 
     def show_face_locations(self, response):
         """
@@ -117,5 +115,9 @@ class FaceDetectorClient(Node):
 def main(args=None):
     rclpy.init(args=None)
     face_detect_client_ = FaceDetectorClient()
+    face_detect_client_.update_detect_model("hog")
     face_detect_client_.send_request()
+    face_detect_client_.update_detect_model("cnn")
+    face_detect_client_.send_request()
+    rclpy.spin(face_detect_client_)
     rclpy.shutdown()
