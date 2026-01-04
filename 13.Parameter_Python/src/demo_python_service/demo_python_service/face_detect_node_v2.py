@@ -42,14 +42,16 @@ class FaceDetectorionNode(Node):
         # self.number_of_times_to_upsample = 1
         # self.model = "hog"
 
-        self.declare_parameter("face_location_upsample_times", 1)
         # 定义节点可以使用的参数及其默认值
         # 第一个参数是参数名，第二个是默认值
+        self.declare_parameter("face_location_upsample_times", 1)
         self.declare_parameter("face_location_model", "hog")
-        self.model_ = self.get_parameter("face_location_model").value
+
         # 从节点参数中读取参数值
         # 返回一个参数对象，需要用 .value 来获取实际值
+        self.model_ = self.get_parameter("face_location_model").value
         self.upsample_times_ = self.get_parameter("face_location_upsample_times").value
+        
         self.add_on_set_parameters_callback(self.parameters_callback)
 
     def parameters_callback(self, parameters):

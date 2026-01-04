@@ -1,5 +1,7 @@
 /home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_circle
 /home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control
+/home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control_v2
+/home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_param_client
 /home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/share/ament_index/resource_index/package_run_dependencies/cpp_pose_topic
 /home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/share/ament_index/resource_index/parent_prefix_path/cpp_pose_topic
 /home/lxf/Desktop/ROS/14.Parameter_CPP/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.sh

@@ -87,8 +87,19 @@ class FaceDetectorClient(Node):
             self.get_logger().info(" 等待参数设置服务端上线 ...")
 
         # 2.创建请求对象
-        request = SetParameters.Request()
-        request.parameters = parameters
+        # 使用ros2 interface show rcl_interfaces/srv/SetParameters
+        # 查看SetParameters的消息类型，
+        # Request 部分（--- 上面）：
+        # Parameter[] parameters  # 要设置的参数列表
+        #   string name         # 参数名
+        #   ParameterValue value # 参数值（包含类型 + 具体值）
+        # Response 部分（--- 下面）：
+        # SetParametersResult[] results  # 设置结果列表
+        #   bool successful           # 是否成功
+        #   string reason             # 失败原因
+
+        request = SetParameters.Request()       # 创建请求实例。
+        request.parameters = parameters         # 填充参数列表。
 
         # 3.异步调用、等待并返回响应结果
         future = client.call_async(request)

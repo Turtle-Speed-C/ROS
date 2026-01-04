@@ -1,0 +1,11 @@
+[01m[K/home/lxf/Desktop/ROS/14.Parameter_CPP/src/cpp_pose_topic/src/turtle_control_v2.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparameters_callback_handle_[m[K’ does not name a type; did you mean ‘[01m[KOnSetParametersCallbackHandle[m[K’?
+   78 |     [01;31m[Kparameters_callback_handle_[m[K = this->add_on_set_parameters_callback
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KOnSetParametersCallbackHandle[m[K
+[01m[K/home/lxf/Desktop/ROS/14.Parameter_CPP/src/cpp_pose_topic/src/turtle_control_v2.cpp:105:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+  105 |                                   [01;31m[K)[m[K;
+      |                                   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtle_control_v2.dir/build.make:76：CMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/turtle_control_v2.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

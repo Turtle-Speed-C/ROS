@@ -15,8 +15,11 @@ include_directories(include)
 
 add_executable(turtle_circle src/turtle_circle.cpp)
 add_executable(turtle_control src/turtle_control.cpp)
+add_executable(turtle_control_v2 src/turtle_control_v2.cpp)
 # 这里的turtle_control是可执行文件，在后面的install会把turtle_control放入到install/lib下面
-# 但是节点名一定是在cpp的node_name
+# 但是节点名一定是在cpp的node_name‘
+add_executable(turtle_param_client src/turtle_param_client.cpp)
+
 
 # 链接依赖
 ament_target_dependencies(turtle_circle 
@@ -31,10 +34,21 @@ ament_target_dependencies(turtle_control
   turtlesim
 ) 
 
+ament_target_dependencies(turtle_control_v2 
+  rclcpp 
+  geometry_msgs 
+  turtlesim
+) 
+
+ament_target_dependencies(turtle_param_client 
+  rclcpp 
+  geometry_msgs 
+  turtlesim
+) 
 
 # 安装
 install(TARGETS
-  turtle_circle turtle_control
+  turtle_circle turtle_control turtle_control_v2 turtle_param_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

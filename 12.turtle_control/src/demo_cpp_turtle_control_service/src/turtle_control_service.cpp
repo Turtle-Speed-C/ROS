@@ -27,7 +27,7 @@ public:
 
         patrol_server_ = this->create_service<Patrol>(
             // <Patrol>   这个服务可以处理的请求类型
-            "patrol", // 服务端的名称
+            "patrol",       // 服务端的名称
             [this](const std::shared_ptr<Patrol::Request> request, const std::shared_ptr<Patrol::Response> response)
             {
                 if (request->target_x > 0 && request->target_y > 0 && request->target_x < 11 && request->target_y < 11)

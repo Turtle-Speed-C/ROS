@@ -223,6 +223,32 @@ turtle_control/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/build
 .PHONY : turtle_control/fast
 
+#=============================================================================
+# Target rules for targets named turtle_control_v2
+
+# Build rule for target.
+turtle_control_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_control_v2
+.PHONY : turtle_control_v2
+
+# fast build rule for target.
+turtle_control_v2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_v2.dir/build.make CMakeFiles/turtle_control_v2.dir/build
+.PHONY : turtle_control_v2/fast
+
+#=============================================================================
+# Target rules for targets named turtle_param_client
+
+# Build rule for target.
+turtle_param_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_param_client
+.PHONY : turtle_param_client
+
+# fast build rule for target.
+turtle_param_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_param_client.dir/build.make CMakeFiles/turtle_param_client.dir/build
+.PHONY : turtle_param_client/fast
+
 src/turtle_circle.o: src/turtle_circle.cpp.o
 .PHONY : src/turtle_circle.o
 
@@ -271,6 +297,54 @@ src/turtle_control.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control.dir/build.make CMakeFiles/turtle_control.dir/src/turtle_control.cpp.s
 .PHONY : src/turtle_control.cpp.s
 
+src/turtle_control_v2.o: src/turtle_control_v2.cpp.o
+.PHONY : src/turtle_control_v2.o
+
+# target to build an object file
+src/turtle_control_v2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_v2.dir/build.make CMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.o
+.PHONY : src/turtle_control_v2.cpp.o
+
+src/turtle_control_v2.i: src/turtle_control_v2.cpp.i
+.PHONY : src/turtle_control_v2.i
+
+# target to preprocess a source file
+src/turtle_control_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_v2.dir/build.make CMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.i
+.PHONY : src/turtle_control_v2.cpp.i
+
+src/turtle_control_v2.s: src/turtle_control_v2.cpp.s
+.PHONY : src/turtle_control_v2.s
+
+# target to generate assembly for a file
+src/turtle_control_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_control_v2.dir/build.make CMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.s
+.PHONY : src/turtle_control_v2.cpp.s
+
+src/turtle_param_client.o: src/turtle_param_client.cpp.o
+.PHONY : src/turtle_param_client.o
+
+# target to build an object file
+src/turtle_param_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_param_client.dir/build.make CMakeFiles/turtle_param_client.dir/src/turtle_param_client.cpp.o
+.PHONY : src/turtle_param_client.cpp.o
+
+src/turtle_param_client.i: src/turtle_param_client.cpp.i
+.PHONY : src/turtle_param_client.i
+
+# target to preprocess a source file
+src/turtle_param_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_param_client.dir/build.make CMakeFiles/turtle_param_client.dir/src/turtle_param_client.cpp.i
+.PHONY : src/turtle_param_client.cpp.i
+
+src/turtle_param_client.s: src/turtle_param_client.cpp.s
+.PHONY : src/turtle_param_client.s
+
+# target to generate assembly for a file
+src/turtle_param_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_param_client.dir/build.make CMakeFiles/turtle_param_client.dir/src/turtle_param_client.cpp.s
+.PHONY : src/turtle_param_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... turtle_circle"
 	@echo "... turtle_control"
+	@echo "... turtle_control_v2"
+	@echo "... turtle_param_client"
 	@echo "... src/turtle_circle.o"
 	@echo "... src/turtle_circle.i"
 	@echo "... src/turtle_circle.s"
 	@echo "... src/turtle_control.o"
 	@echo "... src/turtle_control.i"
 	@echo "... src/turtle_control.s"
+	@echo "... src/turtle_control_v2.o"
+	@echo "... src/turtle_control_v2.i"
+	@echo "... src/turtle_control_v2.s"
+	@echo "... src/turtle_param_client.o"
+	@echo "... src/turtle_param_client.i"
+	@echo "... src/turtle_param_client.s"
 .PHONY : help
 
 

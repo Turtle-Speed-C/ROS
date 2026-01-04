@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000825] (cpp_pose_topic) JobQueued: {'identifier': 'cpp_pose_topic', 'dependencies': OrderedDict()}
+[0.001014] (cpp_pose_topic) JobStarted: {'identifier': 'cpp_pose_topic'}
+[0.013986] (cpp_pose_topic) JobProgress: {'identifier': 'cpp_pose_topic', 'progress': 'cmake'}
+[0.015128] (cpp_pose_topic) JobProgress: {'identifier': 'cpp_pose_topic', 'progress': 'build'}
+[0.015767] (cpp_pose_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lxf/Desktop/ROS/14.Parameter_CPP/build/cpp_pose_topic', '--', '-j16', '-l16'], 'cwd': '/home/lxf/Desktop/ROS/14.Parameter_CPP/build/cpp_pose_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lxf'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lxf'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/lxf/Desktop/ROS'), ('TERM_PROGRAM_VERSION', '1.106.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1649'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1988'), ('BUNDLED_DEBUGPY_PATH', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5388'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lxf'), ('JOURNAL_STREAM', '8:15799'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lxf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/lxf/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/lxf/.local/bin:/opt/ros/humble/bin:/home/lxf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lxf-Cyborg-14-A13VF:@/tmp/.ICE-unix/1961,unix/lxf-Cyborg-14-A13VF:/tmp/.ICE-unix/1961'), ('INVOCATION_ID', '0589d39052174ae5a754310a72599670'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lxf/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3d760fdd5832552a.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/lxf/.config/Code/User/workspaceStorage/fec71f9b2e3a7de36fe5046c73599786/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-953a7f316d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lxf/Desktop/ROS/14.Parameter_CPP/build/cpp_pose_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093166] (cpp_pose_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099189] (-) TimerEvent: {}
+[0.199476] (-) TimerEvent: {}
+[0.299845] (-) TimerEvent: {}
+[0.317424] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.396969] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399936] (-) TimerEvent: {}
+[0.402422] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.415656] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.435376] (cpp_pose_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457777] (cpp_pose_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500149] (-) TimerEvent: {}
+[0.556485] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.562987] (cpp_pose_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600267] (-) TimerEvent: {}
+[0.700654] (-) TimerEvent: {}
+[0.758513] (cpp_pose_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800767] (-) TimerEvent: {}
+[0.848429] (cpp_pose_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.868789] (cpp_pose_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.900897] (-) TimerEvent: {}
+[0.928132] (cpp_pose_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001023] (-) TimerEvent: {}
+[1.016816] (cpp_pose_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.017182] (cpp_pose_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lxf/Desktop/ROS/14.Parameter_CPP/src/cpp_pose_topic/include\n'}
+[1.017301] (cpp_pose_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.018620] (cpp_pose_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.020028] (cpp_pose_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.020164] (cpp_pose_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.020586] (cpp_pose_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.022327] (cpp_pose_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.044909] (cpp_pose_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[1.055921] (cpp_pose_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/lxf/Desktop/ROS/14.Parameter_CPP/build/cpp_pose_topic\n'}
+[1.089940] (cpp_pose_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control\x1b[0m\n'}
+[1.090257] (cpp_pose_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[1.101124] (-) TimerEvent: {}
+[1.102498] (cpp_pose_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.o\x1b[0m\n'}
+[1.112675] (cpp_pose_topic) StdoutLine: {'line': b'[ 50%] Built target turtle_circle\n'}
+[1.113500] (cpp_pose_topic) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[1.201311] (-) TimerEvent: {}
+[1.301796] (-) TimerEvent: {}
+[1.402098] (-) TimerEvent: {}
+[1.502428] (-) TimerEvent: {}
+[1.602856] (-) TimerEvent: {}
+[1.703260] (-) TimerEvent: {}
+[1.803741] (-) TimerEvent: {}
+[1.904200] (-) TimerEvent: {}
+[2.004603] (-) TimerEvent: {}
+[2.105033] (-) TimerEvent: {}
+[2.205423] (-) TimerEvent: {}
+[2.305869] (-) TimerEvent: {}
+[2.406277] (-) TimerEvent: {}
+[2.506726] (-) TimerEvent: {}
+[2.607238] (-) TimerEvent: {}
+[2.707684] (-) TimerEvent: {}
+[2.808006] (-) TimerEvent: {}
+[2.908361] (-) TimerEvent: {}
+[3.008824] (-) TimerEvent: {}
+[3.109225] (-) TimerEvent: {}
+[3.209618] (-) TimerEvent: {}
+[3.310011] (-) TimerEvent: {}
+[3.410455] (-) TimerEvent: {}
+[3.510971] (-) TimerEvent: {}
+[3.611460] (-) TimerEvent: {}
+[3.711945] (-) TimerEvent: {}
+[3.812323] (-) TimerEvent: {}
+[3.912714] (-) TimerEvent: {}
+[4.013115] (-) TimerEvent: {}
+[4.113508] (-) TimerEvent: {}
+[4.179886] (cpp_pose_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lxf/Desktop/ROS/14.Parameter_CPP/src/cpp_pose_topic/src/turtle_control_v2.cpp:78:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameters_callback_handle_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KOnSetParametersCallbackHandle\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.180245] (cpp_pose_topic) StderrLine: {'line': b'   78 |     \x1b[01;31m\x1b[Kparameters_callback_handle_\x1b[m\x1b[K = this->add_on_set_parameters_callback\n'}
+[4.180409] (cpp_pose_topic) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.180561] (cpp_pose_topic) StderrLine: {'line': b'      |     \x1b[32m\x1b[KOnSetParametersCallbackHandle\x1b[m\x1b[K\n'}
+[4.180777] (cpp_pose_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lxf/Desktop/ROS/14.Parameter_CPP/src/cpp_pose_topic/src/turtle_control_v2.cpp:105:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.180967] (cpp_pose_topic) StderrLine: {'line': b'  105 |                                   \x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.181152] (cpp_pose_topic) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.213720] (-) TimerEvent: {}
+[4.314260] (-) TimerEvent: {}
+[4.414824] (-) TimerEvent: {}
+[4.515302] (-) TimerEvent: {}
+[4.615807] (-) TimerEvent: {}
+[4.716300] (-) TimerEvent: {}
+[4.816758] (-) TimerEvent: {}
+[4.917217] (-) TimerEvent: {}
+[5.017636] (-) TimerEvent: {}
+[5.118031] (-) TimerEvent: {}
+[5.218592] (-) TimerEvent: {}
+[5.319062] (-) TimerEvent: {}
+[5.419452] (-) TimerEvent: {}
+[5.523190] (-) TimerEvent: {}
+[5.623608] (-) TimerEvent: {}
+[5.724151] (-) TimerEvent: {}
+[5.824598] (-) TimerEvent: {}
+[5.925129] (-) TimerEvent: {}
+[6.025577] (-) TimerEvent: {}
+[6.126339] (-) TimerEvent: {}
+[6.227159] (-) TimerEvent: {}
+[6.327821] (-) TimerEvent: {}
+[6.428339] (-) TimerEvent: {}
+[6.528924] (-) TimerEvent: {}
+[6.629304] (-) TimerEvent: {}
+[6.729773] (-) TimerEvent: {}
+[6.830275] (-) TimerEvent: {}
+[6.930737] (-) TimerEvent: {}
+[7.031178] (-) TimerEvent: {}
+[7.131687] (-) TimerEvent: {}
+[7.232232] (-) TimerEvent: {}
+[7.332634] (-) TimerEvent: {}
+[7.433195] (-) TimerEvent: {}
+[7.533693] (-) TimerEvent: {}
+[7.634138] (-) TimerEvent: {}
+[7.652827] (cpp_pose_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_control_v2.dir/build.make:76\xef\xbc\x9aCMakeFiles/turtle_control_v2.dir/src/turtle_control_v2.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.653334] (cpp_pose_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193\xef\xbc\x9aCMakeFiles/turtle_control_v2.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.653413] (cpp_pose_topic) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[7.734233] (-) TimerEvent: {}
+[7.834572] (-) TimerEvent: {}
+[7.934934] (-) TimerEvent: {}
+[8.035297] (-) TimerEvent: {}
+[8.135695] (-) TimerEvent: {}
+[8.236152] (-) TimerEvent: {}
+[8.336523] (-) TimerEvent: {}
+[8.436845] (-) TimerEvent: {}
+[8.537174] (-) TimerEvent: {}
+[8.637490] (-) TimerEvent: {}
+[8.737993] (-) TimerEvent: {}
+[8.838400] (-) TimerEvent: {}
+[8.938872] (-) TimerEvent: {}
+[9.039360] (-) TimerEvent: {}
+[9.139799] (-) TimerEvent: {}
+[9.240190] (-) TimerEvent: {}
+[9.340532] (-) TimerEvent: {}
+[9.441004] (-) TimerEvent: {}
+[9.541437] (-) TimerEvent: {}
+[9.641845] (-) TimerEvent: {}
+[9.742182] (-) TimerEvent: {}
+[9.842519] (-) TimerEvent: {}
+[9.942851] (-) TimerEvent: {}
+[10.043233] (-) TimerEvent: {}
+[10.143543] (-) TimerEvent: {}
+[10.243827] (-) TimerEvent: {}
+[10.344174] (-) TimerEvent: {}
+[10.444584] (-) TimerEvent: {}
+[10.544976] (-) TimerEvent: {}
+[10.645332] (-) TimerEvent: {}
+[10.745709] (-) TimerEvent: {}
+[10.846003] (-) TimerEvent: {}
+[10.946495] (-) TimerEvent: {}
+[11.046814] (-) TimerEvent: {}
+[11.147174] (-) TimerEvent: {}
+[11.247633] (-) TimerEvent: {}
+[11.348064] (-) TimerEvent: {}
+[11.448489] (-) TimerEvent: {}
+[11.548856] (-) TimerEvent: {}
+[11.649275] (-) TimerEvent: {}
+[11.749636] (-) TimerEvent: {}
+[11.814966] (cpp_pose_topic) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[11.849746] (-) TimerEvent: {}
+[11.950133] (-) TimerEvent: {}
+[12.050550] (-) TimerEvent: {}
+[12.150867] (-) TimerEvent: {}
+[12.251247] (-) TimerEvent: {}
+[12.351604] (-) TimerEvent: {}
+[12.442119] (cpp_pose_topic) StdoutLine: {'line': b'[ 83%] Built target turtle_control\n'}
+[12.443719] (cpp_pose_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[12.447011] (cpp_pose_topic) CommandEnded: {'returncode': 2}
+[12.451761] (-) TimerEvent: {}
+[12.470274] (cpp_pose_topic) JobEnded: {'identifier': 'cpp_pose_topic', 'rc': 2}
+[12.481840] (-) EventReactorShutdown: {}
