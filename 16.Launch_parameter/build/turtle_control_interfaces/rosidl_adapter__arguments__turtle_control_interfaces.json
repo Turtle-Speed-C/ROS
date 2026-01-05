@@ -1,0 +1,7 @@
+{
+  "package_name": "turtle_control_interfaces",
+  "non_idl_tuples": [
+    "/home/lxf/Desktop/ROS/16.Launch_parameter/src/turtle_control_interfaces:srv/FaceDetector.srv",
+    "/home/lxf/Desktop/ROS/16.Launch_parameter/src/turtle_control_interfaces:srv/Patrol.srv"
+  ]
+}

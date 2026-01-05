@@ -1,0 +1,34 @@
+cmake_minimum_required(VERSION 3.8)
+project(turtle_control_interfaces)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+# 这个包是把自定义的消息文件转化为C++、python源码模块
+find_package(sensor_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME} "srv/FaceDetector.srv"
+                           "srv/Patrol.srv" DEPENDENCIES sensor_msgs)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights comment the
+  # line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo) comment the line
+  # when this package is in a git repo and when a copyright and license is added
+  # to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+
+# 📌 CMakeLists.txt = “厨房的食谱”
+# 作用：告诉编译器（colcon build）怎么把接口文件变成代码。
+# 📌 package.xml = “包裹的标签”
+# 作用：告诉 ROS 这个包是干什么的，需要什么工具。 

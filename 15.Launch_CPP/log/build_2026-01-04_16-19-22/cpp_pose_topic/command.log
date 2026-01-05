@@ -1,0 +1,2 @@
+Invoking command in '/home/lxf/Desktop/ROS/15.Launch_CPP/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/15.Launch_CPP/src/cpp_pose_topic -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/15.Launch_CPP/install/cpp_pose_topic
+Invoked command in '/home/lxf/Desktop/ROS/15.Launch_CPP/build/cpp_pose_topic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/15.Launch_CPP/src/cpp_pose_topic -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/15.Launch_CPP/install/cpp_pose_topic

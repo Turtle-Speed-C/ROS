@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e8a400b26336ef0f7277.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "turtle_control_interfaces__py",
+					"jsonFile" : "directory-turtle_control_interfaces__py-42e3079746e7946c0b75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lxf/Desktop/ROS/15.Launch_CPP/build/turtle_control_interfaces/turtle_control_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtle_control_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtle_control_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtle_control_interfaces_egg-7cd8c3e14b3892e217ad.json",
+					"name" : "ament_cmake_python_build_turtle_control_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_turtle_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_turtle_control_interfaces-093bebcc278308f1cd05.json",
+					"name" : "ament_cmake_python_copy_turtle_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces-b17011362a75551ffc43.json",
+					"name" : "turtle_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__cpp-098391327e26784c9384.json",
+					"name" : "turtle_control_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtle_control_interfaces__py::@f35bb871673b7aeffbfd",
+					"jsonFile" : "target-turtle_control_interfaces__py-592f9ee6b6d8f810e061.json",
+					"name" : "turtle_control_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_generator_c-c48b96dc01f5728153bb.json",
+					"name" : "turtle_control_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_generator_py-52409c4fbedc33094db5.json",
+					"name" : "turtle_control_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_c-409f15b9535e6403964a.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_c__pyext-67ed7fc48f5105516aa6.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_cpp-a264e8797a6c0380bfb5.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_fastrtps_c-a0f3d707a10517891ac2.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext-54d1892f5a8f7b39247f.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp-06d3052f2505c3cfa19a.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_introspection_c-8ae5e9e8b7e04e6cfe8a.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext-38ffe65f5e715187052c.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces__rosidl_typesupport_introspection_cpp-ddab31987f352b957cb5.json",
+					"name" : "turtle_control_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_control_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_control_interfaces_uninstall-65ad4b00c27f3369fd56.json",
+					"name" : "turtle_control_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-03b0043a9b6f401fae8d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lxf/Desktop/ROS/15.Launch_CPP/build/turtle_control_interfaces",
+		"source" : "/home/lxf/Desktop/ROS/15.Launch_CPP/src/turtle_control_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
