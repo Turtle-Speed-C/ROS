@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic -- -j16 -l16
+[0.081s] [ 25%] Built target turtle_param_client
+[0.082s] [ 50%] Built target turtle_circle
+[0.082s] [ 75%] Built target turtle_control_v2
+[0.085s] [100%] Built target turtle_control
+[0.104s] Invoked command in '/home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic -- -j16 -l16
+[0.119s] Invoking command in '/home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic
+[0.127s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_circle
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_control_v2
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/lib/cpp_pose_topic/turtle_param_client
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/launch
+[0.128s] -- Installing: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/launch/condition.launch.py
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/launch/demo.launch.py
+[0.128s] -- Installing: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/launch/action.launch.py
+[0.128s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/ament_index/resource_index/package_run_dependencies/cpp_pose_topic
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/ament_index/resource_index/parent_prefix_path/cpp_pose_topic
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.sh
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/environment/ament_prefix_path.dsv
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.sh
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/environment/path.dsv
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.bash
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.sh
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.zsh
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/local_setup.dsv
+[0.129s] -- Installing: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/package.dsv
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/ament_index/resource_index/packages/cpp_pose_topic
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig.cmake
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/cmake/cpp_pose_topicConfig-version.cmake
+[0.129s] -- Up-to-date: /home/lxf/Desktop/ROS/16.Launch_parameter/install/cpp_pose_topic/share/cpp_pose_topic/package.xml
+[0.131s] Invoked command in '/home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/16.Launch_parameter/build/cpp_pose_topic
