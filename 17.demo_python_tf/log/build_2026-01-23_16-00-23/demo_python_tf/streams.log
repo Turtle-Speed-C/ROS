@@ -1,0 +1,26 @@
+[0.367s] Invoking command in '/home/lxf/Desktop/ROS/17.demo_python_tf/src/demo_python_tf': PYTHONPATH=/home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/build install --record /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.511s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.511s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.511s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.511s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.511s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.512s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.513s] adding license file 'LICENSE'
+[0.513s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.513s] running build
+[0.513s] running build_py
+[0.513s] copying demo_python_tf/dynamic_tf_broadcaster.py -> /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/build/lib/demo_python_tf
+[0.513s] running install
+[0.513s] running install_lib
+[0.514s] copying /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/build/lib/demo_python_tf/dynamic_tf_broadcaster.py -> /home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf
+[0.514s] byte-compiling /home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf/dynamic_tf_broadcaster.py to dynamic_tf_broadcaster.cpython-310.pyc
+[0.515s] running install_data
+[0.515s] running install_egg_info
+[0.516s] removing '/home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.517s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages/demo_python_tf-0.0.0-py3.10.egg-info
+[0.517s] running install_scripts
+[0.530s] Installing dynamic_tf_broadcaster script to /home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/demo_python_tf
+[0.530s] Installing static_tf_broadcaster script to /home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/demo_python_tf
+[0.530s] writing list of installed files to '/home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/install.log'
+[0.545s] Invoked command in '/home/lxf/Desktop/ROS/17.demo_python_tf/src/demo_python_tf' returned '0': PYTHONPATH=/home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lxf/Desktop/ROS/17.demo_python_tf/install/demo_python_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/build install --record /home/lxf/Desktop/ROS/17.demo_python_tf/build/demo_python_tf/install.log --single-version-externally-managed install_data

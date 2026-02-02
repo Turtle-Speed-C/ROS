@@ -1,0 +1,6 @@
+Invoking command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/18.demo_cpp_tf/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf
+Invoked command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lxf/Desktop/ROS/18.demo_cpp_tf/src/demo_cpp_tf -DCMAKE_INSTALL_PREFIX=/home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf
+Invoking command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf -- -j16 -l16
+Invoked command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf -- -j16 -l16
+Invoking command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf
+Invoked command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf

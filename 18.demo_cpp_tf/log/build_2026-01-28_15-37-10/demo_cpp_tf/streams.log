@@ -1,0 +1,51 @@
+[0.007s] Invoking command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf -- -j16 -l16
+[0.027s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.111s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.132s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.172s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.173s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.297s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[0.308s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.357s] -- Found tf2_geometry_msgs: 0.25.18 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.358s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.359s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.361s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.405s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.405s] -- Configured cppcheck include dirs: 
+[0.406s] -- Configured cppcheck exclude dirs and/or files: 
+[0.406s] -- Added test 'lint_cmake' to check CMake code style
+[0.406s] -- Added test 'uncrustify' to check C / C++ code style
+[0.406s] -- Configured uncrustify additional arguments: 
+[0.406s] -- Added test 'xmllint' to check XML markup files
+[0.407s] -- Configuring done
+[0.413s] -- Generating done
+[0.416s] -- Build files have been written to: /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf
+[0.447s] [ 50%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[3.086s] [100%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[3.218s] [100%] Built target static_tf_broadcaster
+[3.228s] Invoked command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf -- -j16 -l16
+[3.238s] Invoking command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf
+[3.247s] -- Install configuration: ""
+[3.247s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[3.248s] -- Set runtime path of "/home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster" to ""
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[3.248s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[3.248s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[3.248s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[3.248s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[3.248s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[3.248s] -- Installing: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[3.249s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[3.249s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[3.249s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[3.249s] -- Up-to-date: /home/lxf/Desktop/ROS/18.demo_cpp_tf/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[3.250s] Invoked command in '/home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lxf/Desktop/ROS/18.demo_cpp_tf/build/demo_cpp_tf
