@@ -30,12 +30,12 @@ public:
         Transform.header.stamp = this->get_clock()->now();
         Transform.header.stamp = this->get_clock()->now();
         Transform.header.frame_id = "map";
-        Transform.child_frame_id = "target_point";
-        Transform.transform.translation.x = 5.0;
+        Transform.child_frame_id = "base_link";
+        Transform.transform.translation.x = 2.0;
         Transform.transform.translation.y = 3.0;
         Transform.transform.translation.z = 0.0;
         tf2::Quaternion quat;
-        quat.setRPY(0, 0, 60 * M_PI / 180); //弧度制欧拉角转四元数
+        quat.setRPY(0, 0, 30 * M_PI / 180); //弧度制欧拉角转四元数
         Transform.transform.rotation = tf2::toMsg(quat);    //转成消息接口类型
         tf_broadcaster_->sendTransform(Transform);
     }
