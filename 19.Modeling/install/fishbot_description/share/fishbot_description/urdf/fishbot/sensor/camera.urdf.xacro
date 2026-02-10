@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- robot是URDF/XACRO 的唯一根节点 -->
+<!-- <robot>是URDF/XACRO 的唯一根节点 -->
+<!-- xmlns:xacro="http://www.ros.org/wiki/xacro"：引入XACRO 的 XML 命名空间 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="camera">
+    <xacro:macro name="camera_xacro" params="xyz">
+        <!-- ============ 相机模块 ================ -->
+        <link name="camera_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.10 0.02"/>
+                </geometry>
+                <material name="green">
+                    <color rgba="0.0 1.0 0.0 0.8"/>
+                </material>
+            </visual>
+
+            <!-- 补充碰撞几何：和visual一致 -->
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.10 0.02"/>
+                </geometry>
+            </collision>
+            <!-- 补充立方体惯性：质量0.02kg（相机支架+镜头，轻量） -->
+            <xacro:box_inertia m="0.02" w="0.02" h="0.10" d="0.02"/>
+            
+        </link>
+
+        <!-- ========== 新增相机光学坐标系链接与关节 ========== -->
+        <link name="camera_optical_link"></link>
+        <joint name="camera_optical_joint" type="fixed">
+            <parent link="camera_link" />
+            <child link="camera_optical_link" />
+            <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}" />
+        </joint>
+
+        <joint name="camera_joint" type="fixed">
+            <parent link="base_link"/>
+            <child link="camera_link"/>
+            <origin xyz="${xyz}"/>
+        </joint>
+    </xacro:macro>
+</robot>

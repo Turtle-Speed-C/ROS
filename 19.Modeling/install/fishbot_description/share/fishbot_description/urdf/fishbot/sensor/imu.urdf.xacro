@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- robot是URDF/XACRO 的唯一根节点 -->
+
+<!-- <robot>是URDF/XACRO 的唯一根节点 -->
+<!-- xmlns:xacro="http://www.ros.org/wiki/xacro"：引入XACRO 的 XML 命名空间 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="imu">
+    <!-- name="base_xacro"：宏的名称，调用这个宏时需要用这个名字（类似函数名）。 -->
+    <xacro:macro name="imu_xacro" params="xyz">
+        <link name="imu_link">
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.02 0.02" />
+                </geometry>
+                <material name="black">
+                    <color rgba="0.0 0.0 0.0 0.8"/>                    
+                </material>
+            </visual>
+
+            <!-- 补充碰撞几何：和visual一致 -->
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.02 0.02 0.02" />
+                </geometry>
+            </collision>
+            <!-- 补充立方体惯性：质量0.01kg（IMU模块极小，质量极轻） -->
+            <xacro:box_inertia m="0.01" w="0.02" h="0.02" d="0.02"/>
+            
+        </link>
+
+        <joint name="imu_joint" type="fixed">
+            <parent link="base_link"/>
+            <child link="imu_link"/>
+            <origin xyz="${xyz}" />
+        </joint>
+    </xacro:macro>
+</robot>

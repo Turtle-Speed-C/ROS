@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- 惯性张量宏定义合集，兼容ROS1/ROS2，提供立方体、圆柱体、球体的惯性参数生成 -->
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="comment_inertia">
+
+    <!-- 立方体惯性张量宏定义
+         params参数说明：
+         m: 立方体质量(kg)
+         w: 宽度(x轴方向, m)
+         h: 高度(y轴方向, m)
+         d: 深度(z轴方向, m)
+         惯性公式：立方体绕中心轴的惯性张量标准公式 -->
+    <xacro:macro name="box_inertia" params="m w h d">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(m/12) * (h*h + d*d)}" 
+                     ixy="0.0" 
+                     ixz="0.0" 
+                     iyy="${(m/12) * (w*w + d*d)}" 
+                     iyz="0.0" 
+                     izz="${(m/12) * (w*w + h*h)}" />
+        </inertial>
+    </xacro:macro>
+
+    <!-- 圆柱体惯性张量宏定义（中心轴沿z轴）
+         params参数说明：
+         m: 圆柱体质量(kg)
+         r: 底面半径(m)
+         h: 柱体高度(z轴方向, m)
+         惯性公式：圆柱体绕中心轴(z)的转动惯量为1/2mr²，绕x/y轴为1/12(3r²+h²) -->
+    <xacro:macro name="cylinder_inertia" params="m r h">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(m/12) * (3*r*r + h*h)}" 
+                     ixy="0.0" 
+                     ixz="0.0" 
+                     iyy="${(m/12) * (3*r*r + h*h)}" 
+                     iyz="0.0" 
+                     izz="${(m/2) * r*r}" />
+        </inertial>
+    </xacro:macro>
+
+    <!-- 球体惯性张量宏定义（均质球体）
+         params参数说明：
+         m: 球体质量(kg)
+         r: 球体半径(m)
+         惯性公式：均质球体绕任意过中心轴的转动惯量均为2/5mr² -->
+    <xacro:macro name="sphere_inertia" params="m r">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(2/5) * m * r*r}" 
+                     ixy="0.0" 
+                     ixz="0.0" 
+                     iyy="${(2/5) * m * r*r}" 
+                     iyz="0.0" 
+                     izz="${(2/5) * m * r*r}" />
+        </inertial>
+    </xacro:macro>
+
+</robot>

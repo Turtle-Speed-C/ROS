@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- 单尖括号，根节点robot，名称first_robot -->
+<robot name="first_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 新增1：引入ros2_control配置文件（必须加xacro命名空间，否则无法识别xacro语法） -->
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/fishbot.ros2_control.xacro" />
+
+    <!-- 新增2：定义base_footprint（Gazebo仿真必需的地面参考点） -->
+    <link name="base_footprint" />
+    <joint name="base_footprint_to_base_link" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.032" rpy="0 0 0" />
+    </joint>
+
+    <!-- 原有内容：base_link -->
+    <link name="base_link">
+        <!-- 部分外观描述 -->
+        <visual>
+             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+             <geometry>
+                <cylinder radius="0.10" length="0.12"/>
+             </geometry>
+             <material name="white">
+                <color rgba="1.0 1.0 1.0 0.5"/>
+             </material>
+        </visual>
+        <!-- 新增：Gazebo仿真必需的惯性属性（无惯性会导致模型在Gazebo中异常） -->
+        <inertial>
+            <mass value="1.0" />
+            <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+        </inertial>
+    </link>
+    
+    <!-- 原有内容：imu_link和imu_joint -->
+    <link name="imu_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+        </visual>
+        <material name="black">
+            <color rgba="0 0 0 0.5" />
+        </material>
+        <!-- 新增：imu_link的惯性属性 -->
+        <inertial>
+            <mass value="0.01" />
+            <inertia ixx="0.00001" ixy="0.0" ixz="0.0" iyy="0.00001" iyz="0.0" izz="0.00001" />
+        </inertial>
+    </link>
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0.0 0.0 0.03" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <!-- 新增3：定义ros2_control依赖的left/right_wheel_joint（必须和ros2_control配置中的名称一致） -->
+    <!-- 左轮链接 -->
+    <link name="left_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder radius="0.06" length="0.03"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+        <inertial>
+            <mass value="0.1" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
+        </inertial>
+    </link>
+    <!-- 左轮关节（连续关节，用于速度控制） -->
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <origin xyz="0 0.10 -0.06" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/> <!-- 绕y轴旋转 -->
+    </joint>
+
+    <!-- 右轮链接 -->
+    <link name="right_wheel_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+            <geometry>
+                <cylinder radius="0.06" length="0.03"/>
+            </geometry>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1.0"/>
+            </material>
+        </visual>
+        <inertial>
+            <mass value="0.1" />
+            <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001" />
+        </inertial>
+    </link>
+    <!-- 右轮关节（连续关节，用于速度控制） -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <origin xyz="0 -0.10 -0.06" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/> <!-- 绕y轴旋转 -->
+    </joint>
+
+    <!-- 新增4：调用ros2_control宏（加载ros2_control标签和Gazebo插件） -->
+    <xacro:fishbot_ros2_control />
+</robot>

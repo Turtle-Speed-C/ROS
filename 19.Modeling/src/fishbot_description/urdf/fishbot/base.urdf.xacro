@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="base">
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/common_inertia.xacro"/>
+    
+    <xacro:macro name="base_xacro" params="length radius">
+        <!-- 只定义 base_link,不再定义 base_footprint -->
+        <link name="base_link">
+            <visual>
+                <origin xyz="0 0 0.0" rpy="0 0 0" />
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}" />
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 0.5 1.0" />
+                </material>
+            </visual>
+
+            <collision>
+                <origin xyz="0 0 0.0" rpy="0 0 0" />
+                <geometry>
+                    <cylinder radius="${radius}" length="${length}" />
+                </geometry>
+            </collision>
+
+            <xacro:cylinder_inertia m="1.0" r="${radius}" h="${length}"/>
+        </link>
+        
+        <!-- 添加 Gazebo 材质 -->
+        <gazebo reference="base_link">
+            <material>Gazebo/White</material>
+        </gazebo>
+    </xacro:macro>
+</robot>

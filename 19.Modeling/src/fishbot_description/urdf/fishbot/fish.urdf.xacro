@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fishbot">
+    
+    <!-- 引入所有组件（保留你的原有引入） -->
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/base.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/imu.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/laser.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/sensor/camera.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/actuator/caster.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/actuator/wheel.urdf.xacro"/>
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/plugins/gazebo_control_plugin.xacro"/>
+    
+    <!-- 关键：引入ros2_control配置文件（对应你的fishbot.ros2_control.xacro） -->
+    <xacro:include filename="$(find fishbot_description)/urdf/fishbot/fishbot.ros2_control.xacro" />
+
+    <!-- 定义 base_footprint (地面参考点) -->
+    <link name="base_footprint" />
+    <joint name="base_footprint_to_base_link" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 0.032" rpy="0 0 0" />
+    </joint>
+
+    <!-- 实例化原有组件 -->
+    <xacro:base_xacro length="0.12" radius="0.1" />
+    <xacro:imu_xacro xyz="0.0 0.0 0.02" />
+    <xacro:laser_xacro xyz="0.0 0.0 0.10" />
+    <xacro:camera_xacro xyz="0.10 0.0 0.075" />
+    <xacro:wheel_xacro wheel_name="left" xyz="0 0.10 -0.06" />
+    <xacro:wheel_xacro wheel_name="right" xyz="0 -0.10 -0.06" />
+    <xacro:caster_xacro caster_name="front" xyz="0.08 0.0 -0.076" />
+    <xacro:caster_xacro caster_name="back" xyz="-0.08 0.0 -0.076" />
+
+    <!-- 注释冲突的差速插件 -->
+    <!-- <xacro:gazebo_control_plugin /> -->
+    
+    <!-- 关键：调用ros2_control宏，加载硬件配置+Gazebo插件 -->
+    <xacro:fishbot_ros2_control />
+
+</robot>
